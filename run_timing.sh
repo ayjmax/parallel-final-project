@@ -2,7 +2,7 @@
 
 VERSION="1"
 TESTING_HW="bank"
-TESTING_MODEL="gemini"
+TESTING_MODEL=$1 # Get first argument as model name
 OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV file
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
@@ -10,9 +10,12 @@ N=(1000 10000 100000 1000000 10000000)
 NUM_ACCOUNTS=(250 1000 10000)
 THREADS=(2 4 8 16)
 
-# Write CSV header
+# Clear CSV, write header
 echo "Implementation,Iterations,Threads,Accounts,Time(ms),FinalBalance" > "$OUTPUT_CSV_FILE"
 echo "testing $TESTING_MODEL"
+
+# Clear TXT
+echo "" > "$OUTPUT_TXT_FILE"
 
 g++ -std=c++17 -O3 src/${TESTING_HW}/${TESTING_MODEL}-${TESTING_HW}-${VERSION}.cpp -o bin/${TESTING_MODEL}-${TESTING_HW}-${VERSION}  -lpthread
 
