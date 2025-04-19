@@ -2,12 +2,12 @@
 
 VERSION="1"
 TESTING_HW="bank"
-TESTING_MODEL="o3"
+TESTING_MODEL="o4"
 OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV file
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
-# MODELS=("o3" "gemini" "claude" "deepseek")
-MODELS=("o3")
+# MODELS=("o4" "gemini" "claude" "deepseek")
+MODELS=("o4")
 N=(1000 10000 100000 1000000 10000000)
 NUM_ACCOUNTS=(250 1000 10000)
 THREADS=(2 4 8 16)
