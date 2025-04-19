@@ -1,8 +1,8 @@
 #!/bin/bash
 
 VERSION="1"
-TESTING_HW="bank"
-TESTING_MODEL=$1 # Get first argument as model name
+TESTING_HW=$1 # Get first argument as homework name
+TESTING_MODEL=$2 # Get second argument as model name
 OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV file
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
