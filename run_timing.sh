@@ -1,18 +1,19 @@
 #!/bin/bash
 
-VERSION="2"
+VERSION="1"
 TESTING_HW="bank"
 TESTING_MODEL="o3"
 OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV file
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
-MODELS=("o3" "gemini" "claude" "deepseek")
-N=(1000 10000 100000 1000000 10000000 100000000 1000000000)
-numKeys=(1000000)
-threads=(1 2 4 8 12 16 24)
+# MODELS=("o3" "gemini" "claude" "deepseek")
+MODELS=("o3")
+N=(1000 10000 100000 1000000 10000000)
+NUM_ACCOUNTS=(250 1000 10000)
+THREADS=(2 4 8 16)
 
 # Write CSV header
-echo "File,N,Threads,Time" > "$OUTPUT_CSV_FILE"
+echo "Implementation,Iterations,Threads,Accounts,Time(ms),FinalBalance" > "$OUTPUT_CSV_FILE"
 
 for model in "${MODELS[@]}"; do
     echo "testing $model"
@@ -24,14 +25,21 @@ for model in "${MODELS[@]}"; do
         exit 1
     fi
     for n in "${N[@]}"; do
-        for numKey in "${numKeys[@]}"; do
-            for thread in "${threads[@]}"; do
-                echo "[DEBUG] Running ${model}-${TESTING_HW}-${VERSION} with: $thread Threads, $numKey Accounts, $n Iterations"
-                OUTPUT=$(./${model}-${TESTING_HW}-${VERSION} "$n" "$numKey" "$thread")
+        for numAccounts in "${NUM_ACCOUNTS[@]}"; do
+            for thread in "${THREADS[@]}"; do
+                echo "[DEBUG] Running ${model}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations"
+                OUTPUT=$(./${model}-${TESTING_HW}-${VERSION} "$n" "$numAccounts" "$thread")
                 echo "$OUTPUT"
-                read -r time <<< "$OUTPUT"
-                echo "${model},${n},${thread},${time}" >> "$OUTPUT_CSV_FILE"
-                echo "${model},${n},${thread},${time}" >> "$OUTPUT_TXT_FILE"
+
+                # Write full output to txt file
+                echo "[DEBUG] Running ${model}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations" >> "$OUTPUT_TXT_FILE"
+                echo "$OUTPUT" >> "$OUTPUT_TXT_FILE"
+
+                # Strip first only slowest thread time from output and put into csv
+                # assume $OUTPUT contains your program’s stdout
+                total_time=$(echo "$OUTPUT" | grep 'Total time:'    | cut -d' ' -f3)
+                final_bal=$(echo "$OUTPUT" | grep 'Final balance:' | cut -d' ' -f3)
+                echo "${TESTING_HW},${n},${thread},${numAccounts},${total_time},${final_bal}" >> "$OUTPUT_CSV_FILE"
             done
         done
     done
