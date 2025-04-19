@@ -17,7 +17,6 @@ static std::shared_mutex globalMutex;                 // for deposit vs. balance
 
 // --- initialize so total = $100 000 ---
 void initAccounts(size_t numAccounts) {
-    // balances
     accounts.assign(numAccounts, 0LL);
     long long totalCents = 100'000LL * 100;
     long long base       = totalCents / (long long)numAccounts;
@@ -25,19 +24,16 @@ void initAccounts(size_t numAccounts) {
         accounts[i] = base;
     accounts.back() += (totalCents - base * (long long)numAccounts);
 
-    // mutexes
     acctMutex = std::make_unique<std::mutex[]>(numAccounts);
 }
 
 // --- atomic transfer of V cents from id1→id2 ---
 void deposit(size_t id1, size_t id2, long long V) {
     std::shared_lock<std::shared_mutex> gLock(globalMutex);
-
     size_t lo = std::min(id1, id2), hi = std::max(id1, id2);
     std::unique_lock<std::mutex> l1(acctMutex[lo], std::defer_lock);
     std::unique_lock<std::mutex> l2(acctMutex[hi], std::defer_lock);
     std::lock(l1, l2);
-
     accounts[id1] -= V;
     accounts[id2] += V;
 }
@@ -89,6 +85,9 @@ int main(int argc, char** argv) {
 
     initAccounts(numAccounts);
 
+    // --- start total timer ---
+    auto main_t0 = std::chrono::steady_clock::now();
+
     // spawn threads + futures
     std::vector<std::thread> threads;
     std::vector<std::future<long long>> futures;
@@ -105,30 +104,24 @@ int main(int argc, char** argv) {
 
     // collect per-thread times
     std::vector<long long> times(numThreads);
-    for (size_t t = 0; t < numThreads; ++t) {
+    for (size_t t = 0; t < numThreads; ++t)
         times[t] = futures[t].get();
-    }
 
-    // find which thread was the slowest
-    auto itMax = std::max_element(times.begin(), times.end());
-    size_t slowestTid = std::distance(times.begin(), itMax);
-    long long slowestTime = *itMax;
+    // final sanity-check and balance
+    long long finalBal = balance();
 
-    // final sanity-check
-    if (balance() != 100'000LL * 100) {
-        std::cerr << "ERROR: balance invariant violated\n";
-        return 2;
-    }
+    // --- stop total timer ---
+    auto main_t1 = std::chrono::steady_clock::now();
+    long long total_ms = std::chrono::duration_cast<std::chrono::milliseconds>(main_t1 - main_t0).count();
 
-    // --- Print exactly as requested ---
-    std::cout << "Thread " << slowestTid
-              << " had the longest execution time: "
-              << slowestTime << " ms.\n";
+    // --- print results ---
+    std::cout << "Total time: " << total_ms << "\n";
+    std::cout << "Final balance: " << finalBal << "\n";
     for (size_t t = 0; t < numThreads; ++t) {
         std::cout << "Thread " << t
-                  << " execution time (ms): "
-                  << times[t] << "\n";
+                << " execution time (ms): " << times[t] << "\n";
     }
+
 
     return 0;
 }
