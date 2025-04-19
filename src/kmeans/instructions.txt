@@ -1,0 +1,53 @@
+Introduction:
+
+  The purpose of this assignment is to parallelize an existing sequential program.
+  Intel Threading Building Blocks (TBB) is an option, but you might find other
+  approaches such as using the OpenMP, OpenCilk, CilkPlus, or OpenCL to parallelize
+  a sequential program. If you want to explore a toolchain that is different
+  from those listed above, please find my approval first.
+
+  The provided program is a serial implementation of the well-known k-means algorithm
+  for clustering. It's a simple implementation, which is borrowed from this repository:
+
+                    https://github.com/marcoscastro/kmeans
+
+  with few customizations I made. Two datasets are also included to test your application.
+  The provided synthetic datasets might not represent the best candidate to show the
+  effectiveness of your parallel code. By searching online you can find many repositories
+  for k-means datasets that can be tested. For example, a known repository is available at:
+
+				http://archive.ics.uci.edu/ml/index.php
+
+  The selection of the dataset is up to you. Each of the available dataset has particular
+  characteristics. Since only you can know where parallelization can be exploited in your
+  code, select your dataset accordingly.
+  Different datasets might have different formats; consider adapting them to fit your
+  application (or change the way your application reads an input dataset). Do not forget
+  that your sequential application should also be tested under the same dataset for
+  comparison.
+
+  Your goal is to get the best speedup you can achieve over the provided program by
+  exploiting parallelism and other techniques discussed in class. Keep in mind that
+  performance improvement might also come from using advanced instructions, such as SIMD,
+  fine-tuning important runtime parameters (e.g., number of threads, size of structures),
+  redesign part of the solution to break code dependency and increase parallelism.
+
+  The final note is about concurrency. If you discover that concurrency can help achieve
+  a better speedup, feel free to explore it ONLY AFTER you parallelized your code without
+  flow or data dependency (meaning without race conditions). It would be great to see
+  a comparison between sequential, parallel, and concurrent code.
+
+  ***** Few advice on how to implement parallelism and get high performance *****
+
+  The first step is to get familiar with the K-means problem and the algorithmic solution.
+  The provided application implements the Lloyd's algorithm and is made by multiple steps.
+  The textbook has a chapter explaining k-means and provides snippets of code to increase
+  understanding of how to provide parallelism.
+  The second step is to analyze the provided application and understand which parts
+  can be parallelized because they do not include data and flow dependencies.
+  The third step is to focus on those parts that contain dependency and design an alternative
+  approach to achieve the same goal but in a way parallelism can be exploited.
+  In the fourth step, you should care about optimizations to increase performance further.
+  K-means uses the Euclidean distance calculation to understand if a point belongs to a
+  certain cluster. SIMD instructions might help in this case, especially when the
+  dataset has many dimensions.
