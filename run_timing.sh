@@ -18,7 +18,7 @@ echo "Implementation,Iterations,Threads,Accounts,Time(ms),FinalBalance" > "$OUTP
 for model in "${MODELS[@]}"; do
     echo "testing $model"
 
-    g++ -std=c++17 -O3 src/${TESTING_HW}/${model}-${TESTING_HW}-${VERSION}.cpp -o ${model}-${TESTING_HW}-${VERSION}  -lpthread
+    g++ -std=c++17 -O3 src/${TESTING_HW}/${model}-${TESTING_HW}-${VERSION}.cpp -o bin/${model}-${TESTING_HW}-${VERSION}  -lpthread
 
     if [ $? -ne 0 ]; then
         echo "Compilation failed"
@@ -28,7 +28,7 @@ for model in "${MODELS[@]}"; do
         for numAccounts in "${NUM_ACCOUNTS[@]}"; do
             for thread in "${THREADS[@]}"; do
                 echo "[DEBUG] Running ${model}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations"
-                OUTPUT=$(./${model}-${TESTING_HW}-${VERSION} "$n" "$numAccounts" "$thread")
+                OUTPUT=$(./bin/${model}-${TESTING_HW}-${VERSION} "$n" "$numAccounts" "$thread")
                 echo "$OUTPUT"
 
                 # Write full output to txt file
