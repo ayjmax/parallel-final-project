@@ -1,40 +1,630 @@
-o3,1000,1,Thread 0 had the longest execution time: 0 ms.
-o3,1000,2,Thread 0 had the longest execution time: 0 ms.
-o3,1000,4,Thread 0 had the longest execution time: 0 ms.
-o3,1000,8,Thread 0 had the longest execution time: 1 ms.
-o3,1000,12,Thread 0 had the longest execution time: 2 ms.
-o3,1000,16,Thread 5 had the longest execution time: 3 ms.
-o3,1000,24,Thread 0 had the longest execution time: 5 ms.
-o3,10000,1,Thread 0 had the longest execution time: 1 ms.
-o3,10000,2,Thread 0 had the longest execution time: 2 ms.
-o3,10000,4,Thread 2 had the longest execution time: 7 ms.
-o3,10000,8,Thread 0 had the longest execution time: 16 ms.
-o3,10000,12,Thread 0 had the longest execution time: 25 ms.
-o3,10000,16,Thread 0 had the longest execution time: 34 ms.
-o3,10000,24,Thread 3 had the longest execution time: 50 ms.
-o3,100000,1,Thread 0 had the longest execution time: 12 ms.
-o3,100000,2,Thread 0 had the longest execution time: 22 ms.
-o3,100000,4,Thread 0 had the longest execution time: 71 ms.
-o3,100000,8,Thread 3 had the longest execution time: 172 ms.
-o3,100000,12,Thread 3 had the longest execution time: 247 ms.
-o3,100000,16,Thread 1 had the longest execution time: 334 ms.
-o3,100000,24,Thread 2 had the longest execution time: 518 ms.
-o3,1000000,1,Thread 0 had the longest execution time: 113 ms.
-o3,1000000,2,Thread 0 had the longest execution time: 209 ms.
-o3,1000000,4,Thread 1 had the longest execution time: 685 ms.
-o3,1000000,8,Thread 0 had the longest execution time: 1680 ms.
-o3,1000000,12,Thread 6 had the longest execution time: 2487 ms.
-o3,1000000,16,Thread 1 had the longest execution time: 3355 ms.
-o3,1000000,24,Thread 5 had the longest execution time: 5120 ms.
-o3,10000000,1,Thread 0 had the longest execution time: 1125 ms.
-o3,10000000,2,Thread 0 had the longest execution time: 2080 ms.
-o3,10000000,4,Thread 0 had the longest execution time: 6862 ms.
-o3,10000000,8,Thread 0 had the longest execution time: 17227 ms.
-o3,10000000,12,Thread 1 had the longest execution time: 25578 ms.
-o3,10000000,16,Thread 12 had the longest execution time: 35576 ms.
-o3,10000000,24,Thread 14 had the longest execution time: 52532 ms.
-o3,100000000,1,Thread 0 had the longest execution time: 12781 ms.
-o3,100000000,2,Thread 1 had the longest execution time: 20641 ms.
-o3,100000000,4,Thread 3 had the longest execution time: 71225 ms.
-o3,100000000,8,Thread 3 had the longest execution time: 179130 ms.
-o3,100000000,12,Thread 11 had the longest execution time: 260401 ms.
+[DEBUG] Running o3-bank-1 with: 2 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 4 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 8 Threads, 250 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 10000000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+Thread 4 execution time (ms): 1
+Thread 5 execution time (ms): 1
+Thread 6 execution time (ms): 1
+Thread 7 execution time (ms): 1
+[DEBUG] Running o3-bank-1 with: 16 Threads, 250 Accounts, 1000 Iterations
+Total time: 3
+Final balance: 10000000
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 2
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 2
+Thread 6 execution time (ms): 2
+Thread 7 execution time (ms): 2
+Thread 8 execution time (ms): 2
+Thread 9 execution time (ms): 2
+Thread 10 execution time (ms): 2
+Thread 11 execution time (ms): 3
+Thread 12 execution time (ms): 3
+Thread 13 execution time (ms): 3
+Thread 14 execution time (ms): 2
+Thread 15 execution time (ms): 3
+[DEBUG] Running o3-bank-1 with: 2 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 4 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 8 Threads, 1000 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 10000000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+Thread 4 execution time (ms): 1
+Thread 5 execution time (ms): 1
+Thread 6 execution time (ms): 1
+Thread 7 execution time (ms): 1
+[DEBUG] Running o3-bank-1 with: 16 Threads, 1000 Accounts, 1000 Iterations
+Total time: 3
+Final balance: 10000000
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 2
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 2
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+Thread 8 execution time (ms): 2
+Thread 9 execution time (ms): 3
+Thread 10 execution time (ms): 2
+Thread 11 execution time (ms): 3
+Thread 12 execution time (ms): 2
+Thread 13 execution time (ms): 2
+Thread 14 execution time (ms): 3
+Thread 15 execution time (ms): 3
+[DEBUG] Running o3-bank-1 with: 2 Threads, 10000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 4 Threads, 10000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 10000000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running o3-bank-1 with: 8 Threads, 10000 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 10000000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+Thread 4 execution time (ms): 1
+Thread 5 execution time (ms): 1
+Thread 6 execution time (ms): 1
+Thread 7 execution time (ms): 1
+[DEBUG] Running o3-bank-1 with: 16 Threads, 10000 Accounts, 1000 Iterations
+Total time: 3
+Final balance: 10000000
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+Thread 8 execution time (ms): 3
+Thread 9 execution time (ms): 3
+Thread 10 execution time (ms): 2
+Thread 11 execution time (ms): 2
+Thread 12 execution time (ms): 2
+Thread 13 execution time (ms): 2
+Thread 14 execution time (ms): 2
+Thread 15 execution time (ms): 2
+[DEBUG] Running o3-bank-1 with: 2 Threads, 250 Accounts, 10000 Iterations
+Total time: 1
+Final balance: 10000000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+[DEBUG] Running o3-bank-1 with: 4 Threads, 250 Accounts, 10000 Iterations
+Total time: 7
+Final balance: 10000000
+Thread 0 execution time (ms): 6
+Thread 1 execution time (ms): 6
+Thread 2 execution time (ms): 7
+Thread 3 execution time (ms): 7
+[DEBUG] Running o3-bank-1 with: 8 Threads, 250 Accounts, 10000 Iterations
+Total time: 16
+Final balance: 10000000
+Thread 0 execution time (ms): 16
+Thread 1 execution time (ms): 16
+Thread 2 execution time (ms): 16
+Thread 3 execution time (ms): 15
+Thread 4 execution time (ms): 16
+Thread 5 execution time (ms): 16
+Thread 6 execution time (ms): 14
+Thread 7 execution time (ms): 16
+[DEBUG] Running o3-bank-1 with: 16 Threads, 250 Accounts, 10000 Iterations
+Total time: 33
+Final balance: 10000000
+Thread 0 execution time (ms): 33
+Thread 1 execution time (ms): 30
+Thread 2 execution time (ms): 31
+Thread 3 execution time (ms): 33
+Thread 4 execution time (ms): 31
+Thread 5 execution time (ms): 32
+Thread 6 execution time (ms): 28
+Thread 7 execution time (ms): 30
+Thread 8 execution time (ms): 32
+Thread 9 execution time (ms): 32
+Thread 10 execution time (ms): 32
+Thread 11 execution time (ms): 31
+Thread 12 execution time (ms): 31
+Thread 13 execution time (ms): 32
+Thread 14 execution time (ms): 31
+Thread 15 execution time (ms): 32
+[DEBUG] Running o3-bank-1 with: 2 Threads, 1000 Accounts, 10000 Iterations
+Total time: 1
+Final balance: 10000000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+[DEBUG] Running o3-bank-1 with: 4 Threads, 1000 Accounts, 10000 Iterations
+Total time: 7
+Final balance: 10000000
+Thread 0 execution time (ms): 6
+Thread 1 execution time (ms): 6
+Thread 2 execution time (ms): 6
+Thread 3 execution time (ms): 6
+[DEBUG] Running o3-bank-1 with: 8 Threads, 1000 Accounts, 10000 Iterations
+Total time: 16
+Final balance: 10000000
+Thread 0 execution time (ms): 15
+Thread 1 execution time (ms): 16
+Thread 2 execution time (ms): 15
+Thread 3 execution time (ms): 14
+Thread 4 execution time (ms): 16
+Thread 5 execution time (ms): 16
+Thread 6 execution time (ms): 16
+Thread 7 execution time (ms): 16
+[DEBUG] Running o3-bank-1 with: 16 Threads, 1000 Accounts, 10000 Iterations
+Total time: 32
+Final balance: 10000000
+Thread 0 execution time (ms): 32
+Thread 1 execution time (ms): 31
+Thread 2 execution time (ms): 29
+Thread 3 execution time (ms): 32
+Thread 4 execution time (ms): 31
+Thread 5 execution time (ms): 31
+Thread 6 execution time (ms): 31
+Thread 7 execution time (ms): 30
+Thread 8 execution time (ms): 32
+Thread 9 execution time (ms): 31
+Thread 10 execution time (ms): 29
+Thread 11 execution time (ms): 31
+Thread 12 execution time (ms): 31
+Thread 13 execution time (ms): 32
+Thread 14 execution time (ms): 31
+Thread 15 execution time (ms): 32
+[DEBUG] Running o3-bank-1 with: 2 Threads, 10000 Accounts, 10000 Iterations
+Total time: 2
+Final balance: 10000000
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 2
+[DEBUG] Running o3-bank-1 with: 4 Threads, 10000 Accounts, 10000 Iterations
+Total time: 7
+Final balance: 10000000
+Thread 0 execution time (ms): 6
+Thread 1 execution time (ms): 6
+Thread 2 execution time (ms): 6
+Thread 3 execution time (ms): 6
+[DEBUG] Running o3-bank-1 with: 8 Threads, 10000 Accounts, 10000 Iterations
+Total time: 16
+Final balance: 10000000
+Thread 0 execution time (ms): 16
+Thread 1 execution time (ms): 16
+Thread 2 execution time (ms): 15
+Thread 3 execution time (ms): 15
+Thread 4 execution time (ms): 16
+Thread 5 execution time (ms): 16
+Thread 6 execution time (ms): 16
+Thread 7 execution time (ms): 16
+[DEBUG] Running o3-bank-1 with: 16 Threads, 10000 Accounts, 10000 Iterations
+Total time: 32
+Final balance: 10000000
+Thread 0 execution time (ms): 31
+Thread 1 execution time (ms): 31
+Thread 2 execution time (ms): 31
+Thread 3 execution time (ms): 31
+Thread 4 execution time (ms): 31
+Thread 5 execution time (ms): 32
+Thread 6 execution time (ms): 32
+Thread 7 execution time (ms): 32
+Thread 8 execution time (ms): 31
+Thread 9 execution time (ms): 32
+Thread 10 execution time (ms): 27
+Thread 11 execution time (ms): 31
+Thread 12 execution time (ms): 32
+Thread 13 execution time (ms): 32
+Thread 14 execution time (ms): 32
+Thread 15 execution time (ms): 32
+[DEBUG] Running o3-bank-1 with: 2 Threads, 250 Accounts, 100000 Iterations
+Total time: 20
+Final balance: 10000000
+Thread 0 execution time (ms): 20
+Thread 1 execution time (ms): 20
+[DEBUG] Running o3-bank-1 with: 4 Threads, 250 Accounts, 100000 Iterations
+Total time: 67
+Final balance: 10000000
+Thread 0 execution time (ms): 61
+Thread 1 execution time (ms): 66
+Thread 2 execution time (ms): 66
+Thread 3 execution time (ms): 67
+[DEBUG] Running o3-bank-1 with: 8 Threads, 250 Accounts, 100000 Iterations
+Total time: 158
+Final balance: 10000000
+Thread 0 execution time (ms): 156
+Thread 1 execution time (ms): 158
+Thread 2 execution time (ms): 158
+Thread 3 execution time (ms): 158
+Thread 4 execution time (ms): 154
+Thread 5 execution time (ms): 156
+Thread 6 execution time (ms): 157
+Thread 7 execution time (ms): 158
+[DEBUG] Running o3-bank-1 with: 16 Threads, 250 Accounts, 100000 Iterations
+Total time: 322
+Final balance: 10000000
+Thread 0 execution time (ms): 321
+Thread 1 execution time (ms): 315
+Thread 2 execution time (ms): 313
+Thread 3 execution time (ms): 316
+Thread 4 execution time (ms): 320
+Thread 5 execution time (ms): 322
+Thread 6 execution time (ms): 319
+Thread 7 execution time (ms): 318
+Thread 8 execution time (ms): 322
+Thread 9 execution time (ms): 317
+Thread 10 execution time (ms): 322
+Thread 11 execution time (ms): 308
+Thread 12 execution time (ms): 322
+Thread 13 execution time (ms): 320
+Thread 14 execution time (ms): 320
+Thread 15 execution time (ms): 318
+[DEBUG] Running o3-bank-1 with: 2 Threads, 1000 Accounts, 100000 Iterations
+Total time: 20
+Final balance: 10000000
+Thread 0 execution time (ms): 19
+Thread 1 execution time (ms): 19
+[DEBUG] Running o3-bank-1 with: 4 Threads, 1000 Accounts, 100000 Iterations
+Total time: 67
+Final balance: 10000000
+Thread 0 execution time (ms): 66
+Thread 1 execution time (ms): 66
+Thread 2 execution time (ms): 67
+Thread 3 execution time (ms): 66
+[DEBUG] Running o3-bank-1 with: 8 Threads, 1000 Accounts, 100000 Iterations
+Total time: 163
+Final balance: 10000000
+Thread 0 execution time (ms): 162
+Thread 1 execution time (ms): 163
+Thread 2 execution time (ms): 162
+Thread 3 execution time (ms): 161
+Thread 4 execution time (ms): 161
+Thread 5 execution time (ms): 158
+Thread 6 execution time (ms): 163
+Thread 7 execution time (ms): 157
+[DEBUG] Running o3-bank-1 with: 16 Threads, 1000 Accounts, 100000 Iterations
+Total time: 331
+Final balance: 10000000
+Thread 0 execution time (ms): 329
+Thread 1 execution time (ms): 323
+Thread 2 execution time (ms): 330
+Thread 3 execution time (ms): 322
+Thread 4 execution time (ms): 329
+Thread 5 execution time (ms): 331
+Thread 6 execution time (ms): 329
+Thread 7 execution time (ms): 329
+Thread 8 execution time (ms): 325
+Thread 9 execution time (ms): 323
+Thread 10 execution time (ms): 331
+Thread 11 execution time (ms): 329
+Thread 12 execution time (ms): 326
+Thread 13 execution time (ms): 329
+Thread 14 execution time (ms): 328
+Thread 15 execution time (ms): 314
+[DEBUG] Running o3-bank-1 with: 2 Threads, 10000 Accounts, 100000 Iterations
+Total time: 18
+Final balance: 10000000
+Thread 0 execution time (ms): 18
+Thread 1 execution time (ms): 18
+[DEBUG] Running o3-bank-1 with: 4 Threads, 10000 Accounts, 100000 Iterations
+Total time: 65
+Final balance: 10000000
+Thread 0 execution time (ms): 64
+Thread 1 execution time (ms): 64
+Thread 2 execution time (ms): 63
+Thread 3 execution time (ms): 65
+[DEBUG] Running o3-bank-1 with: 8 Threads, 10000 Accounts, 100000 Iterations
+Total time: 157
+Final balance: 10000000
+Thread 0 execution time (ms): 155
+Thread 1 execution time (ms): 105
+Thread 2 execution time (ms): 157
+Thread 3 execution time (ms): 155
+Thread 4 execution time (ms): 156
+Thread 5 execution time (ms): 153
+Thread 6 execution time (ms): 154
+Thread 7 execution time (ms): 156
+[DEBUG] Running o3-bank-1 with: 16 Threads, 10000 Accounts, 100000 Iterations
+Total time: 333
+Final balance: 10000000
+Thread 0 execution time (ms): 321
+Thread 1 execution time (ms): 332
+Thread 2 execution time (ms): 333
+Thread 3 execution time (ms): 323
+Thread 4 execution time (ms): 332
+Thread 5 execution time (ms): 325
+Thread 6 execution time (ms): 332
+Thread 7 execution time (ms): 332
+Thread 8 execution time (ms): 330
+Thread 9 execution time (ms): 330
+Thread 10 execution time (ms): 328
+Thread 11 execution time (ms): 327
+Thread 12 execution time (ms): 330
+Thread 13 execution time (ms): 331
+Thread 14 execution time (ms): 324
+Thread 15 execution time (ms): 329
+[DEBUG] Running o3-bank-1 with: 2 Threads, 250 Accounts, 1000000 Iterations
+Total time: 172
+Final balance: 10000000
+Thread 0 execution time (ms): 166
+Thread 1 execution time (ms): 172
+[DEBUG] Running o3-bank-1 with: 4 Threads, 250 Accounts, 1000000 Iterations
+Total time: 689
+Final balance: 10000000
+Thread 0 execution time (ms): 689
+Thread 1 execution time (ms): 689
+Thread 2 execution time (ms): 687
+Thread 3 execution time (ms): 679
+[DEBUG] Running o3-bank-1 with: 8 Threads, 250 Accounts, 1000000 Iterations
+Total time: 1657
+Final balance: 10000000
+Thread 0 execution time (ms): 1641
+Thread 1 execution time (ms): 1652
+Thread 2 execution time (ms): 1657
+Thread 3 execution time (ms): 1653
+Thread 4 execution time (ms): 1657
+Thread 5 execution time (ms): 1657
+Thread 6 execution time (ms): 1654
+Thread 7 execution time (ms): 1644
+[DEBUG] Running o3-bank-1 with: 16 Threads, 250 Accounts, 1000000 Iterations
+Total time: 3375
+Final balance: 10000000
+Thread 0 execution time (ms): 3374
+Thread 1 execution time (ms): 3367
+Thread 2 execution time (ms): 3375
+Thread 3 execution time (ms): 3375
+Thread 4 execution time (ms): 3373
+Thread 5 execution time (ms): 3359
+Thread 6 execution time (ms): 3361
+Thread 7 execution time (ms): 3371
+Thread 8 execution time (ms): 3350
+Thread 9 execution time (ms): 3375
+Thread 10 execution time (ms): 3357
+Thread 11 execution time (ms): 3375
+Thread 12 execution time (ms): 3334
+Thread 13 execution time (ms): 3349
+Thread 14 execution time (ms): 3353
+Thread 15 execution time (ms): 3372
+[DEBUG] Running o3-bank-1 with: 2 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 169
+Final balance: 10000000
+Thread 0 execution time (ms): 169
+Thread 1 execution time (ms): 162
+[DEBUG] Running o3-bank-1 with: 4 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 673
+Final balance: 10000000
+Thread 0 execution time (ms): 668
+Thread 1 execution time (ms): 670
+Thread 2 execution time (ms): 670
+Thread 3 execution time (ms): 672
+[DEBUG] Running o3-bank-1 with: 8 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 1663
+Final balance: 10000000
+Thread 0 execution time (ms): 1658
+Thread 1 execution time (ms): 1634
+Thread 2 execution time (ms): 1661
+Thread 3 execution time (ms): 1663
+Thread 4 execution time (ms): 1624
+Thread 5 execution time (ms): 1658
+Thread 6 execution time (ms): 1659
+Thread 7 execution time (ms): 1663
+[DEBUG] Running o3-bank-1 with: 16 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 3225
+Final balance: 10000000
+Thread 0 execution time (ms): 3174
+Thread 1 execution time (ms): 3217
+Thread 2 execution time (ms): 3213
+Thread 3 execution time (ms): 3176
+Thread 4 execution time (ms): 3216
+Thread 5 execution time (ms): 3225
+Thread 6 execution time (ms): 3221
+Thread 7 execution time (ms): 3209
+Thread 8 execution time (ms): 3225
+Thread 9 execution time (ms): 3223
+Thread 10 execution time (ms): 3196
+Thread 11 execution time (ms): 3225
+Thread 12 execution time (ms): 3220
+Thread 13 execution time (ms): 3217
+Thread 14 execution time (ms): 3213
+Thread 15 execution time (ms): 3197
+[DEBUG] Running o3-bank-1 with: 2 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 190
+Final balance: 10000000
+Thread 0 execution time (ms): 188
+Thread 1 execution time (ms): 190
+[DEBUG] Running o3-bank-1 with: 4 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 671
+Final balance: 10000000
+Thread 0 execution time (ms): 669
+Thread 1 execution time (ms): 671
+Thread 2 execution time (ms): 671
+Thread 3 execution time (ms): 671
+[DEBUG] Running o3-bank-1 with: 8 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 1632
+Final balance: 10000000
+Thread 0 execution time (ms): 1616
+Thread 1 execution time (ms): 1628
+Thread 2 execution time (ms): 1605
+Thread 3 execution time (ms): 1631
+Thread 4 execution time (ms): 1631
+Thread 5 execution time (ms): 1631
+Thread 6 execution time (ms): 1612
+Thread 7 execution time (ms): 1627
+[DEBUG] Running o3-bank-1 with: 16 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 3247
+Final balance: 10000000
+Thread 0 execution time (ms): 3246
+Thread 1 execution time (ms): 3236
+Thread 2 execution time (ms): 3197
+Thread 3 execution time (ms): 3233
+Thread 4 execution time (ms): 3246
+Thread 5 execution time (ms): 3245
+Thread 6 execution time (ms): 3219
+Thread 7 execution time (ms): 3243
+Thread 8 execution time (ms): 3246
+Thread 9 execution time (ms): 3244
+Thread 10 execution time (ms): 3225
+Thread 11 execution time (ms): 3232
+Thread 12 execution time (ms): 3234
+Thread 13 execution time (ms): 3226
+Thread 14 execution time (ms): 3235
+Thread 15 execution time (ms): 3246
+[DEBUG] Running o3-bank-1 with: 2 Threads, 250 Accounts, 10000000 Iterations
+Total time: 2055
+Final balance: 10000000
+Thread 0 execution time (ms): 2050
+Thread 1 execution time (ms): 2055
+[DEBUG] Running o3-bank-1 with: 4 Threads, 250 Accounts, 10000000 Iterations
+Total time: 7034
+Final balance: 10000000
+Thread 0 execution time (ms): 7029
+Thread 1 execution time (ms): 7025
+Thread 2 execution time (ms): 6990
+Thread 3 execution time (ms): 7034
+[DEBUG] Running o3-bank-1 with: 8 Threads, 250 Accounts, 10000000 Iterations
+Total time: 16341
+Final balance: 10000000
+Thread 0 execution time (ms): 16318
+Thread 1 execution time (ms): 16318
+Thread 2 execution time (ms): 16168
+Thread 3 execution time (ms): 16309
+Thread 4 execution time (ms): 16341
+Thread 5 execution time (ms): 16325
+Thread 6 execution time (ms): 16169
+Thread 7 execution time (ms): 16341
+[DEBUG] Running o3-bank-1 with: 16 Threads, 250 Accounts, 10000000 Iterations
+Total time: 35385
+Final balance: 10000000
+Thread 0 execution time (ms): 35382
+Thread 1 execution time (ms): 35027
+Thread 2 execution time (ms): 35382
+Thread 3 execution time (ms): 35348
+Thread 4 execution time (ms): 35382
+Thread 5 execution time (ms): 35308
+Thread 6 execution time (ms): 35258
+Thread 7 execution time (ms): 35384
+Thread 8 execution time (ms): 35367
+Thread 9 execution time (ms): 35373
+Thread 10 execution time (ms): 35331
+Thread 11 execution time (ms): 35339
+Thread 12 execution time (ms): 35377
+Thread 13 execution time (ms): 35290
+Thread 14 execution time (ms): 35385
+Thread 15 execution time (ms): 35352
+[DEBUG] Running o3-bank-1 with: 2 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 1775
+Final balance: 10000000
+Thread 0 execution time (ms): 1717
+Thread 1 execution time (ms): 1775
+[DEBUG] Running o3-bank-1 with: 4 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 6797
+Final balance: 10000000
+Thread 0 execution time (ms): 6790
+Thread 1 execution time (ms): 6797
+Thread 2 execution time (ms): 6674
+Thread 3 execution time (ms): 6789
+[DEBUG] Running o3-bank-1 with: 8 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 16656
+Final balance: 10000000
+Thread 0 execution time (ms): 16655
+Thread 1 execution time (ms): 16647
+Thread 2 execution time (ms): 16634
+Thread 3 execution time (ms): 16655
+Thread 4 execution time (ms): 16646
+Thread 5 execution time (ms): 16647
+Thread 6 execution time (ms): 16651
+Thread 7 execution time (ms): 16626
+[DEBUG] Running o3-bank-1 with: 16 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 33740
+Final balance: 10000000
+Thread 0 execution time (ms): 33701
+Thread 1 execution time (ms): 33729
+Thread 2 execution time (ms): 33740
+Thread 3 execution time (ms): 33740
+Thread 4 execution time (ms): 33715
+Thread 5 execution time (ms): 33638
+Thread 6 execution time (ms): 33712
+Thread 7 execution time (ms): 33713
+Thread 8 execution time (ms): 33664
+Thread 9 execution time (ms): 33739
+Thread 10 execution time (ms): 33735
+Thread 11 execution time (ms): 33670
+Thread 12 execution time (ms): 33367
+Thread 13 execution time (ms): 33738
+Thread 14 execution time (ms): 33537
+Thread 15 execution time (ms): 33692
+[DEBUG] Running o3-bank-1 with: 2 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 1911
+Final balance: 10000000
+Thread 0 execution time (ms): 1911
+Thread 1 execution time (ms): 1908
+[DEBUG] Running o3-bank-1 with: 4 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 6740
+Final balance: 10000000
+Thread 0 execution time (ms): 6740
+Thread 1 execution time (ms): 6728
+Thread 2 execution time (ms): 6736
+Thread 3 execution time (ms): 6685
+[DEBUG] Running o3-bank-1 with: 8 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 17038
+Final balance: 10000000
+Thread 0 execution time (ms): 17030
+Thread 1 execution time (ms): 17037
+Thread 2 execution time (ms): 16976
+Thread 3 execution time (ms): 17009
+Thread 4 execution time (ms): 17023
+Thread 5 execution time (ms): 17037
+Thread 6 execution time (ms): 17003
+Thread 7 execution time (ms): 17031
+[DEBUG] Running o3-bank-1 with: 16 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 34793
+Final balance: 10000000
+Thread 0 execution time (ms): 34762
+Thread 1 execution time (ms): 34692
+Thread 2 execution time (ms): 34775
+Thread 3 execution time (ms): 34775
+Thread 4 execution time (ms): 34765
+Thread 5 execution time (ms): 34650
+Thread 6 execution time (ms): 34763
+Thread 7 execution time (ms): 34775
+Thread 8 execution time (ms): 34717
+Thread 9 execution time (ms): 34791
+Thread 10 execution time (ms): 34779
+Thread 11 execution time (ms): 34675
+Thread 12 execution time (ms): 34764
+Thread 13 execution time (ms): 34792
+Thread 14 execution time (ms): 34628
+Thread 15 execution time (ms): 34793

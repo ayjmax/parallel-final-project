@@ -1,41 +1,61 @@
-File,N,Threads,Time
-o3,1000,1,Thread 0 had the longest execution time: 0 ms.
-o3,1000,2,Thread 0 had the longest execution time: 0 ms.
-o3,1000,4,Thread 0 had the longest execution time: 0 ms.
-o3,1000,8,Thread 0 had the longest execution time: 1 ms.
-o3,1000,12,Thread 0 had the longest execution time: 2 ms.
-o3,1000,16,Thread 5 had the longest execution time: 3 ms.
-o3,1000,24,Thread 0 had the longest execution time: 5 ms.
-o3,10000,1,Thread 0 had the longest execution time: 1 ms.
-o3,10000,2,Thread 0 had the longest execution time: 2 ms.
-o3,10000,4,Thread 2 had the longest execution time: 7 ms.
-o3,10000,8,Thread 0 had the longest execution time: 16 ms.
-o3,10000,12,Thread 0 had the longest execution time: 25 ms.
-o3,10000,16,Thread 0 had the longest execution time: 34 ms.
-o3,10000,24,Thread 3 had the longest execution time: 50 ms.
-o3,100000,1,Thread 0 had the longest execution time: 12 ms.
-o3,100000,2,Thread 0 had the longest execution time: 22 ms.
-o3,100000,4,Thread 0 had the longest execution time: 71 ms.
-o3,100000,8,Thread 3 had the longest execution time: 172 ms.
-o3,100000,12,Thread 3 had the longest execution time: 247 ms.
-o3,100000,16,Thread 1 had the longest execution time: 334 ms.
-o3,100000,24,Thread 2 had the longest execution time: 518 ms.
-o3,1000000,1,Thread 0 had the longest execution time: 113 ms.
-o3,1000000,2,Thread 0 had the longest execution time: 209 ms.
-o3,1000000,4,Thread 1 had the longest execution time: 685 ms.
-o3,1000000,8,Thread 0 had the longest execution time: 1680 ms.
-o3,1000000,12,Thread 6 had the longest execution time: 2487 ms.
-o3,1000000,16,Thread 1 had the longest execution time: 3355 ms.
-o3,1000000,24,Thread 5 had the longest execution time: 5120 ms.
-o3,10000000,1,Thread 0 had the longest execution time: 1125 ms.
-o3,10000000,2,Thread 0 had the longest execution time: 2080 ms.
-o3,10000000,4,Thread 0 had the longest execution time: 6862 ms.
-o3,10000000,8,Thread 0 had the longest execution time: 17227 ms.
-o3,10000000,12,Thread 1 had the longest execution time: 25578 ms.
-o3,10000000,16,Thread 12 had the longest execution time: 35576 ms.
-o3,10000000,24,Thread 14 had the longest execution time: 52532 ms.
-o3,100000000,1,Thread 0 had the longest execution time: 12781 ms.
-o3,100000000,2,Thread 1 had the longest execution time: 20641 ms.
-o3,100000000,4,Thread 3 had the longest execution time: 71225 ms.
-o3,100000000,8,Thread 3 had the longest execution time: 179130 ms.
-o3,100000000,12,Thread 11 had the longest execution time: 260401 ms.
+Implementation,Iterations,Threads,Accounts,Time(ms),FinalBalance
+bank,1000,2,250,0,10000000
+bank,1000,4,250,0,10000000
+bank,1000,8,250,1,10000000
+bank,1000,16,250,3,10000000
+bank,1000,2,1000,0,10000000
+bank,1000,4,1000,0,10000000
+bank,1000,8,1000,1,10000000
+bank,1000,16,1000,3,10000000
+bank,1000,2,10000,0,10000000
+bank,1000,4,10000,0,10000000
+bank,1000,8,10000,1,10000000
+bank,1000,16,10000,3,10000000
+bank,10000,2,250,1,10000000
+bank,10000,4,250,7,10000000
+bank,10000,8,250,16,10000000
+bank,10000,16,250,33,10000000
+bank,10000,2,1000,1,10000000
+bank,10000,4,1000,7,10000000
+bank,10000,8,1000,16,10000000
+bank,10000,16,1000,32,10000000
+bank,10000,2,10000,2,10000000
+bank,10000,4,10000,7,10000000
+bank,10000,8,10000,16,10000000
+bank,10000,16,10000,32,10000000
+bank,100000,2,250,20,10000000
+bank,100000,4,250,67,10000000
+bank,100000,8,250,158,10000000
+bank,100000,16,250,322,10000000
+bank,100000,2,1000,20,10000000
+bank,100000,4,1000,67,10000000
+bank,100000,8,1000,163,10000000
+bank,100000,16,1000,331,10000000
+bank,100000,2,10000,18,10000000
+bank,100000,4,10000,65,10000000
+bank,100000,8,10000,157,10000000
+bank,100000,16,10000,333,10000000
+bank,1000000,2,250,172,10000000
+bank,1000000,4,250,689,10000000
+bank,1000000,8,250,1657,10000000
+bank,1000000,16,250,3375,10000000
+bank,1000000,2,1000,169,10000000
+bank,1000000,4,1000,673,10000000
+bank,1000000,8,1000,1663,10000000
+bank,1000000,16,1000,3225,10000000
+bank,1000000,2,10000,190,10000000
+bank,1000000,4,10000,671,10000000
+bank,1000000,8,10000,1632,10000000
+bank,1000000,16,10000,3247,10000000
+bank,10000000,2,250,2055,10000000
+bank,10000000,4,250,7034,10000000
+bank,10000000,8,250,16341,10000000
+bank,10000000,16,250,35385,10000000
+bank,10000000,2,1000,1775,10000000
+bank,10000000,4,1000,6797,10000000
+bank,10000000,8,1000,16656,10000000
+bank,10000000,16,1000,33740,10000000
+bank,10000000,2,10000,1911,10000000
+bank,10000000,4,10000,6740,10000000
+bank,10000000,8,10000,17038,10000000
+bank,10000000,16,10000,34793,10000000
