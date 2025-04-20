@@ -33,12 +33,9 @@ fi
 for n in "${N[@]}"; do
     for numAccounts in "${NUM_ACCOUNTS[@]}"; do
         for thread in "${THREADS[@]}"; do
-            echo "[DEBUG] Running ${TESTING_MODEL}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations"
-            OUTPUT=$(./bin/${TESTING_MODEL}-${TESTING_HW}-${VERSION} "$n" "$numAccounts" "$thread")
-            echo "$OUTPUT"
-
             # Write full output to txt file
             echo "[DEBUG] Running ${TESTING_MODEL}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations" >> "$OUTPUT_TXT_FILE"
+            OUTPUT=$(./bin/${TESTING_MODEL}-${TESTING_HW}-${VERSION} "$n" "$numAccounts" "$thread")
             echo "$OUTPUT" >> "$OUTPUT_TXT_FILE"
 
             # Strip first only slowest thread time from output and put into csv
@@ -46,6 +43,9 @@ for n in "${N[@]}"; do
             total_time=$(echo "$OUTPUT" | grep 'Total time:'    | cut -d' ' -f3)
             final_bal=$(echo "$OUTPUT" | grep 'Final balance:' | cut -d' ' -f3)
             echo "${TESTING_HW},${n},${thread},${numAccounts},${total_time},${final_bal}" >> "$OUTPUT_CSV_FILE"
+
+            echo "[DEBUG] Running ${TESTING_MODEL}-${TESTING_HW}-${VERSION} with: $thread Threads, $numAccounts Accounts, $n Iterations"
+            echo "$OUTPUT"
         done
     done
 done
