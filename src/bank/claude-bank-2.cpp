@@ -9,6 +9,7 @@
 #include <future>
 #include <atomic>
 #include <iomanip>
+#include <cmath>
 
 class BankSystem {
 private:
@@ -16,6 +17,7 @@ private:
     std::shared_mutex map_mutex; // Reader-writer lock for better concurrency
     std::mt19937 rng; // Random number generator
     const double TOTAL_BALANCE = 100000.0; // Constant expected balance
+    const double EPSILON = 1e-6; // Tolerance for floating point comparison
 
 public:
     BankSystem(int num_accounts) : rng(std::random_device{}()) {
@@ -34,7 +36,7 @@ public:
         }
         
         // Adjust the last account if there's any rounding error in the initial setup
-        if (std::abs(total - TOTAL_BALANCE) > 1e-10) {
+        if (std::abs(total - TOTAL_BALANCE) > EPSILON) {
             int last_id = num_accounts - 1;
             accounts[last_id] += (TOTAL_BALANCE - total);
         }
@@ -93,10 +95,11 @@ public:
                 bank.deposit();
             } else { // 5% probability
                 double current_balance = bank.balance();
-                // We could add a debug assertion here to verify balance is still correct
-                // if (std::abs(current_balance - 100000.0) > 1e-10) {
-                //     std::cerr << "Balance error detected: " << current_balance << std::endl;
-                // }
+                // Check if balance is within acceptable tolerance
+                if (std::abs(current_balance - bank.TOTAL_BALANCE) > bank.EPSILON) {
+                    std::cerr << "Balance error detected: " << std::fixed << std::setprecision(6) << current_balance 
+                              << " (diff: " << (current_balance - bank.TOTAL_BALANCE) << ")" << std::endl;
+                }
             }
         }
         
