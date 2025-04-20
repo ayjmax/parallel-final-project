@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check if all required arguments are provided
+if [ $# -ne 3 ]; then
+    echo "Error: Missing arguments"
+    echo "Usage: $0 <homework_name> <model_name> <version>"
+    exit 1
+fi
+
 TESTING_HW=$1 # Get first argument as homework name
 TESTING_MODEL=$2 # Get second argument as model name
 VERSION=$3
