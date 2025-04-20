@@ -1,0 +1,631 @@
+
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 250 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 250 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 1
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 250 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 2
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 2
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 1
+Thread 4 execution time (ms): 2
+Thread 5 execution time (ms): 2
+Thread 6 execution time (ms): 2
+Thread 7 execution time (ms): 2
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 250 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 4
+Thread 0 execution time (ms): 4
+Thread 1 execution time (ms): 4
+Thread 2 execution time (ms): 4
+Thread 3 execution time (ms): 4
+Thread 4 execution time (ms): 4
+Thread 5 execution time (ms): 4
+Thread 6 execution time (ms): 4
+Thread 7 execution time (ms): 4
+Thread 8 execution time (ms): 4
+Thread 9 execution time (ms): 3
+Thread 10 execution time (ms): 4
+Thread 11 execution time (ms): 4
+Thread 12 execution time (ms): 4
+Thread 13 execution time (ms): 4
+Thread 14 execution time (ms): 3
+Thread 15 execution time (ms): 4
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 1000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 1000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 1
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 1000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 3
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 1000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 7
+Thread 0 execution time (ms): 7
+Thread 1 execution time (ms): 5
+Thread 2 execution time (ms): 4
+Thread 3 execution time (ms): 7
+Thread 4 execution time (ms): 6
+Thread 5 execution time (ms): 7
+Thread 6 execution time (ms): 6
+Thread 7 execution time (ms): 6
+Thread 8 execution time (ms): 6
+Thread 9 execution time (ms): 6
+Thread 10 execution time (ms): 6
+Thread 11 execution time (ms): 5
+Thread 12 execution time (ms): 6
+Thread 13 execution time (ms): 5
+Thread 14 execution time (ms): 6
+Thread 15 execution time (ms): 6
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 10000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 3
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 10000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 8
+Thread 0 execution time (ms): 8
+Thread 1 execution time (ms): 8
+Thread 2 execution time (ms): 6
+Thread 3 execution time (ms): 8
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 10000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 16
+Thread 0 execution time (ms): 15
+Thread 1 execution time (ms): 15
+Thread 2 execution time (ms): 14
+Thread 3 execution time (ms): 15
+Thread 4 execution time (ms): 15
+Thread 5 execution time (ms): 16
+Thread 6 execution time (ms): 16
+Thread 7 execution time (ms): 15
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 10000 Accounts, 1000 Iterations
+Final balance: 100000
+Total time: 35
+Thread 0 execution time (ms): 31
+Thread 1 execution time (ms): 35
+Thread 2 execution time (ms): 31
+Thread 3 execution time (ms): 32
+Thread 4 execution time (ms): 31
+Thread 5 execution time (ms): 32
+Thread 6 execution time (ms): 30
+Thread 7 execution time (ms): 34
+Thread 8 execution time (ms): 33
+Thread 9 execution time (ms): 27
+Thread 10 execution time (ms): 35
+Thread 11 execution time (ms): 35
+Thread 12 execution time (ms): 30
+Thread 13 execution time (ms): 24
+Thread 14 execution time (ms): 32
+Thread 15 execution time (ms): 30
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 250 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 4
+Thread 0 execution time (ms): 4
+Thread 1 execution time (ms): 4
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 250 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 10
+Thread 0 execution time (ms): 10
+Thread 1 execution time (ms): 10
+Thread 2 execution time (ms): 10
+Thread 3 execution time (ms): 10
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 250 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 22
+Thread 0 execution time (ms): 22
+Thread 1 execution time (ms): 22
+Thread 2 execution time (ms): 22
+Thread 3 execution time (ms): 21
+Thread 4 execution time (ms): 22
+Thread 5 execution time (ms): 22
+Thread 6 execution time (ms): 22
+Thread 7 execution time (ms): 22
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 250 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 45
+Thread 0 execution time (ms): 45
+Thread 1 execution time (ms): 42
+Thread 2 execution time (ms): 43
+Thread 3 execution time (ms): 45
+Thread 4 execution time (ms): 45
+Thread 5 execution time (ms): 45
+Thread 6 execution time (ms): 43
+Thread 7 execution time (ms): 44
+Thread 8 execution time (ms): 45
+Thread 9 execution time (ms): 45
+Thread 10 execution time (ms): 45
+Thread 11 execution time (ms): 41
+Thread 12 execution time (ms): 43
+Thread 13 execution time (ms): 44
+Thread 14 execution time (ms): 45
+Thread 15 execution time (ms): 45
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 1000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 7
+Thread 0 execution time (ms): 7
+Thread 1 execution time (ms): 7
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 1000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 16
+Thread 0 execution time (ms): 16
+Thread 1 execution time (ms): 16
+Thread 2 execution time (ms): 16
+Thread 3 execution time (ms): 16
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 1000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 33
+Thread 0 execution time (ms): 33
+Thread 1 execution time (ms): 33
+Thread 2 execution time (ms): 33
+Thread 3 execution time (ms): 33
+Thread 4 execution time (ms): 33
+Thread 5 execution time (ms): 33
+Thread 6 execution time (ms): 32
+Thread 7 execution time (ms): 33
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 1000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 68
+Thread 0 execution time (ms): 66
+Thread 1 execution time (ms): 66
+Thread 2 execution time (ms): 65
+Thread 3 execution time (ms): 64
+Thread 4 execution time (ms): 68
+Thread 5 execution time (ms): 68
+Thread 6 execution time (ms): 63
+Thread 7 execution time (ms): 68
+Thread 8 execution time (ms): 68
+Thread 9 execution time (ms): 63
+Thread 10 execution time (ms): 68
+Thread 11 execution time (ms): 68
+Thread 12 execution time (ms): 68
+Thread 13 execution time (ms): 67
+Thread 14 execution time (ms): 67
+Thread 15 execution time (ms): 68
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 10000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 39
+Thread 0 execution time (ms): 38
+Thread 1 execution time (ms): 39
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 10000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 82
+Thread 0 execution time (ms): 80
+Thread 1 execution time (ms): 82
+Thread 2 execution time (ms): 82
+Thread 3 execution time (ms): 79
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 10000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 177
+Thread 0 execution time (ms): 173
+Thread 1 execution time (ms): 173
+Thread 2 execution time (ms): 175
+Thread 3 execution time (ms): 176
+Thread 4 execution time (ms): 172
+Thread 5 execution time (ms): 177
+Thread 6 execution time (ms): 176
+Thread 7 execution time (ms): 174
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 10000 Accounts, 10000 Iterations
+Final balance: 100000
+Total time: 349
+Thread 0 execution time (ms): 347
+Thread 1 execution time (ms): 315
+Thread 2 execution time (ms): 348
+Thread 3 execution time (ms): 347
+Thread 4 execution time (ms): 312
+Thread 5 execution time (ms): 338
+Thread 6 execution time (ms): 345
+Thread 7 execution time (ms): 342
+Thread 8 execution time (ms): 329
+Thread 9 execution time (ms): 333
+Thread 10 execution time (ms): 345
+Thread 11 execution time (ms): 342
+Thread 12 execution time (ms): 323
+Thread 13 execution time (ms): 347
+Thread 14 execution time (ms): 349
+Thread 15 execution time (ms): 346
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 250 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 43
+Thread 0 execution time (ms): 43
+Thread 1 execution time (ms): 43
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 250 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 110
+Thread 0 execution time (ms): 110
+Thread 1 execution time (ms): 107
+Thread 2 execution time (ms): 106
+Thread 3 execution time (ms): 110
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 250 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 229
+Thread 0 execution time (ms): 228
+Thread 1 execution time (ms): 225
+Thread 2 execution time (ms): 227
+Thread 3 execution time (ms): 229
+Thread 4 execution time (ms): 229
+Thread 5 execution time (ms): 228
+Thread 6 execution time (ms): 225
+Thread 7 execution time (ms): 228
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 250 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 464
+Thread 0 execution time (ms): 462
+Thread 1 execution time (ms): 464
+Thread 2 execution time (ms): 464
+Thread 3 execution time (ms): 461
+Thread 4 execution time (ms): 461
+Thread 5 execution time (ms): 461
+Thread 6 execution time (ms): 445
+Thread 7 execution time (ms): 456
+Thread 8 execution time (ms): 463
+Thread 9 execution time (ms): 464
+Thread 10 execution time (ms): 463
+Thread 11 execution time (ms): 461
+Thread 12 execution time (ms): 458
+Thread 13 execution time (ms): 442
+Thread 14 execution time (ms): 462
+Thread 15 execution time (ms): 461
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 1000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 73
+Thread 0 execution time (ms): 72
+Thread 1 execution time (ms): 73
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 1000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 168
+Thread 0 execution time (ms): 168
+Thread 1 execution time (ms): 167
+Thread 2 execution time (ms): 168
+Thread 3 execution time (ms): 163
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 1000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 344
+Thread 0 execution time (ms): 342
+Thread 1 execution time (ms): 339
+Thread 2 execution time (ms): 338
+Thread 3 execution time (ms): 339
+Thread 4 execution time (ms): 337
+Thread 5 execution time (ms): 344
+Thread 6 execution time (ms): 343
+Thread 7 execution time (ms): 343
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 1000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 691
+Thread 0 execution time (ms): 675
+Thread 1 execution time (ms): 688
+Thread 2 execution time (ms): 680
+Thread 3 execution time (ms): 684
+Thread 4 execution time (ms): 691
+Thread 5 execution time (ms): 686
+Thread 6 execution time (ms): 684
+Thread 7 execution time (ms): 689
+Thread 8 execution time (ms): 681
+Thread 9 execution time (ms): 679
+Thread 10 execution time (ms): 682
+Thread 11 execution time (ms): 689
+Thread 12 execution time (ms): 689
+Thread 13 execution time (ms): 679
+Thread 14 execution time (ms): 688
+Thread 15 execution time (ms): 690
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 10000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 383
+Thread 0 execution time (ms): 383
+Thread 1 execution time (ms): 383
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 10000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 803
+Thread 0 execution time (ms): 794
+Thread 1 execution time (ms): 800
+Thread 2 execution time (ms): 803
+Thread 3 execution time (ms): 795
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 10000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 1757
+Thread 0 execution time (ms): 1732
+Thread 1 execution time (ms): 1720
+Thread 2 execution time (ms): 1734
+Thread 3 execution time (ms): 1754
+Thread 4 execution time (ms): 1757
+Thread 5 execution time (ms): 1744
+Thread 6 execution time (ms): 1756
+Thread 7 execution time (ms): 1748
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 10000 Accounts, 100000 Iterations
+Final balance: 100000
+Total time: 3468
+Thread 0 execution time (ms): 3418
+Thread 1 execution time (ms): 3393
+Thread 2 execution time (ms): 3452
+Thread 3 execution time (ms): 3463
+Thread 4 execution time (ms): 3438
+Thread 5 execution time (ms): 3450
+Thread 6 execution time (ms): 3468
+Thread 7 execution time (ms): 3452
+Thread 8 execution time (ms): 3468
+Thread 9 execution time (ms): 3393
+Thread 10 execution time (ms): 3457
+Thread 11 execution time (ms): 3431
+Thread 12 execution time (ms): 3454
+Thread 13 execution time (ms): 3461
+Thread 14 execution time (ms): 3382
+Thread 15 execution time (ms): 3376
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 250 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 413
+Thread 0 execution time (ms): 413
+Thread 1 execution time (ms): 413
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 250 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 1116
+Thread 0 execution time (ms): 1116
+Thread 1 execution time (ms): 1113
+Thread 2 execution time (ms): 1111
+Thread 3 execution time (ms): 1115
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 250 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 2290
+Thread 0 execution time (ms): 2284
+Thread 1 execution time (ms): 2275
+Thread 2 execution time (ms): 2280
+Thread 3 execution time (ms): 2288
+Thread 4 execution time (ms): 2288
+Thread 5 execution time (ms): 2290
+Thread 6 execution time (ms): 2289
+Thread 7 execution time (ms): 2285
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 250 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 4678
+Thread 0 execution time (ms): 4489
+Thread 1 execution time (ms): 4663
+Thread 2 execution time (ms): 4678
+Thread 3 execution time (ms): 4674
+Thread 4 execution time (ms): 4675
+Thread 5 execution time (ms): 4672
+Thread 6 execution time (ms): 4669
+Thread 7 execution time (ms): 4646
+Thread 8 execution time (ms): 4671
+Thread 9 execution time (ms): 4677
+Thread 10 execution time (ms): 4676
+Thread 11 execution time (ms): 4661
+Thread 12 execution time (ms): 4677
+Thread 13 execution time (ms): 4666
+Thread 14 execution time (ms): 4665
+Thread 15 execution time (ms): 4674
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 1000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 721
+Thread 0 execution time (ms): 721
+Thread 1 execution time (ms): 721
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 1000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 1682
+Thread 0 execution time (ms): 1682
+Thread 1 execution time (ms): 1678
+Thread 2 execution time (ms): 1682
+Thread 3 execution time (ms): 1682
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 1000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 3455
+Thread 0 execution time (ms): 3454
+Thread 1 execution time (ms): 3432
+Thread 2 execution time (ms): 3455
+Thread 3 execution time (ms): 3452
+Thread 4 execution time (ms): 3444
+Thread 5 execution time (ms): 3450
+Thread 6 execution time (ms): 3450
+Thread 7 execution time (ms): 3455
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 1000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 6936
+Thread 0 execution time (ms): 6921
+Thread 1 execution time (ms): 6907
+Thread 2 execution time (ms): 6927
+Thread 3 execution time (ms): 6909
+Thread 4 execution time (ms): 6877
+Thread 5 execution time (ms): 6936
+Thread 6 execution time (ms): 6936
+Thread 7 execution time (ms): 6911
+Thread 8 execution time (ms): 6936
+Thread 9 execution time (ms): 6901
+Thread 10 execution time (ms): 6759
+Thread 11 execution time (ms): 6919
+Thread 12 execution time (ms): 6912
+Thread 13 execution time (ms): 6866
+Thread 14 execution time (ms): 6935
+Thread 15 execution time (ms): 6853
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 10000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 3800
+Thread 0 execution time (ms): 3800
+Thread 1 execution time (ms): 3800
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 10000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 7922
+Thread 0 execution time (ms): 7913
+Thread 1 execution time (ms): 7877
+Thread 2 execution time (ms): 7922
+Thread 3 execution time (ms): 7921
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 10000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 17371
+Thread 0 execution time (ms): 17322
+Thread 1 execution time (ms): 17354
+Thread 2 execution time (ms): 17190
+Thread 3 execution time (ms): 17324
+Thread 4 execution time (ms): 17329
+Thread 5 execution time (ms): 17361
+Thread 6 execution time (ms): 17244
+Thread 7 execution time (ms): 17371
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 10000 Accounts, 1000000 Iterations
+Final balance: 100000
+Total time: 34768
+Thread 0 execution time (ms): 34653
+Thread 1 execution time (ms): 34399
+Thread 2 execution time (ms): 34598
+Thread 3 execution time (ms): 34339
+Thread 4 execution time (ms): 34697
+Thread 5 execution time (ms): 34627
+Thread 6 execution time (ms): 34671
+Thread 7 execution time (ms): 34763
+Thread 8 execution time (ms): 34768
+Thread 9 execution time (ms): 34355
+Thread 10 execution time (ms): 34675
+Thread 11 execution time (ms): 34539
+Thread 12 execution time (ms): 34702
+Thread 13 execution time (ms): 34739
+Thread 14 execution time (ms): 34695
+Thread 15 execution time (ms): 34709
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 250 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 4141
+Thread 0 execution time (ms): 4134
+Thread 1 execution time (ms): 4141
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 250 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 11149
+Thread 0 execution time (ms): 11149
+Thread 1 execution time (ms): 11124
+Thread 2 execution time (ms): 11140
+Thread 3 execution time (ms): 11145
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 250 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 23036
+Thread 0 execution time (ms): 23034
+Thread 1 execution time (ms): 23035
+Thread 2 execution time (ms): 23036
+Thread 3 execution time (ms): 23013
+Thread 4 execution time (ms): 22939
+Thread 5 execution time (ms): 22945
+Thread 6 execution time (ms): 22988
+Thread 7 execution time (ms): 22987
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 250 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 46338
+Thread 0 execution time (ms): 46329
+Thread 1 execution time (ms): 46216
+Thread 2 execution time (ms): 46182
+Thread 3 execution time (ms): 46291
+Thread 4 execution time (ms): 46305
+Thread 5 execution time (ms): 46272
+Thread 6 execution time (ms): 46334
+Thread 7 execution time (ms): 46141
+Thread 8 execution time (ms): 46337
+Thread 9 execution time (ms): 46312
+Thread 10 execution time (ms): 46294
+Thread 11 execution time (ms): 46223
+Thread 12 execution time (ms): 46338
+Thread 13 execution time (ms): 46242
+Thread 14 execution time (ms): 46322
+Thread 15 execution time (ms): 46303
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 1000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 7092
+Thread 0 execution time (ms): 7084
+Thread 1 execution time (ms): 7092
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 1000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 16658
+Thread 0 execution time (ms): 16658
+Thread 1 execution time (ms): 16655
+Thread 2 execution time (ms): 16581
+Thread 3 execution time (ms): 16644
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 1000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 34278
+Thread 0 execution time (ms): 34278
+Thread 1 execution time (ms): 34265
+Thread 2 execution time (ms): 34271
+Thread 3 execution time (ms): 34272
+Thread 4 execution time (ms): 34126
+Thread 5 execution time (ms): 34277
+Thread 6 execution time (ms): 34248
+Thread 7 execution time (ms): 34206
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 1000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 69677
+Thread 0 execution time (ms): 69663
+Thread 1 execution time (ms): 69639
+Thread 2 execution time (ms): 69665
+Thread 3 execution time (ms): 69307
+Thread 4 execution time (ms): 69677
+Thread 5 execution time (ms): 69673
+Thread 6 execution time (ms): 69522
+Thread 7 execution time (ms): 69671
+Thread 8 execution time (ms): 69615
+Thread 9 execution time (ms): 69628
+Thread 10 execution time (ms): 69673
+Thread 11 execution time (ms): 69054
+Thread 12 execution time (ms): 69235
+Thread 13 execution time (ms): 69406
+Thread 14 execution time (ms): 69628
+Thread 15 execution time (ms): 69558
+[DEBUG] Running deepseek-bank-1 with: 2 Threads, 10000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 37501
+Thread 0 execution time (ms): 37452
+Thread 1 execution time (ms): 37501
+[DEBUG] Running deepseek-bank-1 with: 4 Threads, 10000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 79463
+Thread 0 execution time (ms): 79384
+Thread 1 execution time (ms): 79455
+Thread 2 execution time (ms): 79301
+Thread 3 execution time (ms): 79463
+[DEBUG] Running deepseek-bank-1 with: 8 Threads, 10000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 174387
+Thread 0 execution time (ms): 174387
+Thread 1 execution time (ms): 174362
+Thread 2 execution time (ms): 174124
+Thread 3 execution time (ms): 173813
+Thread 4 execution time (ms): 173969
+Thread 5 execution time (ms): 174255
+Thread 6 execution time (ms): 173146
+Thread 7 execution time (ms): 174209
+[DEBUG] Running deepseek-bank-1 with: 16 Threads, 10000 Accounts, 10000000 Iterations
+Final balance: 100000
+Total time: 350609
+Thread 0 execution time (ms): 349169
+Thread 1 execution time (ms): 350517
+Thread 2 execution time (ms): 350001
+Thread 3 execution time (ms): 350227
+Thread 4 execution time (ms): 349969
+Thread 5 execution time (ms): 350592
+Thread 6 execution time (ms): 349877
+Thread 7 execution time (ms): 350609
+Thread 8 execution time (ms): 350566
+Thread 9 execution time (ms): 350392
+Thread 10 execution time (ms): 349566
+Thread 11 execution time (ms): 350564
+Thread 12 execution time (ms): 349943
+Thread 13 execution time (ms): 350280
+Thread 14 execution time (ms): 350121
+Thread 15 execution time (ms): 350089
