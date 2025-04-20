@@ -1,0 +1,631 @@
+
+[DEBUG] Running claude-bank-2 with: 2 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 4 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 8 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 16 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+Thread 8 execution time (ms): 0
+Thread 9 execution time (ms): 0
+Thread 10 execution time (ms): 0
+Thread 11 execution time (ms): 0
+Thread 12 execution time (ms): 0
+Thread 13 execution time (ms): 0
+Thread 14 execution time (ms): 0
+Thread 15 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 2 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 4 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 8 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 16 Threads, 1000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+Thread 8 execution time (ms): 0
+Thread 9 execution time (ms): 0
+Thread 10 execution time (ms): 0
+Thread 11 execution time (ms): 0
+Thread 12 execution time (ms): 0
+Thread 13 execution time (ms): 0
+Thread 14 execution time (ms): 0
+Thread 15 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 2 Threads, 10000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 4 Threads, 10000 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 8 Threads, 10000 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 16 Threads, 10000 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000.0
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+Thread 2 execution time (ms): 0
+Thread 3 execution time (ms): 0
+Thread 4 execution time (ms): 0
+Thread 5 execution time (ms): 0
+Thread 6 execution time (ms): 0
+Thread 7 execution time (ms): 0
+Thread 8 execution time (ms): 0
+Thread 9 execution time (ms): 0
+Thread 10 execution time (ms): 0
+Thread 11 execution time (ms): 0
+Thread 12 execution time (ms): 0
+Thread 13 execution time (ms): 0
+Thread 14 execution time (ms): 0
+Thread 15 execution time (ms): 0
+[DEBUG] Running claude-bank-2 with: 2 Threads, 250 Accounts, 10000 Iterations
+Total time: 2
+Final balance: 100000.0
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 2
+[DEBUG] Running claude-bank-2 with: 4 Threads, 250 Accounts, 10000 Iterations
+Total time: 2
+Final balance: 100000.0
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 2
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 2
+[DEBUG] Running claude-bank-2 with: 8 Threads, 250 Accounts, 10000 Iterations
+Total time: 2
+Final balance: 100000.0
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 2
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 2
+Thread 4 execution time (ms): 2
+Thread 5 execution time (ms): 2
+Thread 6 execution time (ms): 2
+Thread 7 execution time (ms): 2
+[DEBUG] Running claude-bank-2 with: 16 Threads, 250 Accounts, 10000 Iterations
+Total time: 3
+Final balance: 100000.0
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+Thread 8 execution time (ms): 2
+Thread 9 execution time (ms): 3
+Thread 10 execution time (ms): 3
+Thread 11 execution time (ms): 3
+Thread 12 execution time (ms): 3
+Thread 13 execution time (ms): 3
+Thread 14 execution time (ms): 3
+Thread 15 execution time (ms): 3
+[DEBUG] Running claude-bank-2 with: 2 Threads, 1000 Accounts, 10000 Iterations
+Total time: 3
+Final balance: 100000.0
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+[DEBUG] Running claude-bank-2 with: 4 Threads, 1000 Accounts, 10000 Iterations
+Total time: 3
+Final balance: 100000.0
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+[DEBUG] Running claude-bank-2 with: 8 Threads, 1000 Accounts, 10000 Iterations
+Total time: 3
+Final balance: 100000.0
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+[DEBUG] Running claude-bank-2 with: 16 Threads, 1000 Accounts, 10000 Iterations
+Total time: 4
+Final balance: 100000.0
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+Thread 8 execution time (ms): 3
+Thread 9 execution time (ms): 3
+Thread 10 execution time (ms): 3
+Thread 11 execution time (ms): 3
+Thread 12 execution time (ms): 3
+Thread 13 execution time (ms): 3
+Thread 14 execution time (ms): 3
+Thread 15 execution time (ms): 3
+[DEBUG] Running claude-bank-2 with: 2 Threads, 10000 Accounts, 10000 Iterations
+Total time: 8
+Final balance: 100000.0
+Thread 0 execution time (ms): 8
+Thread 1 execution time (ms): 8
+[DEBUG] Running claude-bank-2 with: 4 Threads, 10000 Accounts, 10000 Iterations
+Total time: 8
+Final balance: 100000.0
+Thread 0 execution time (ms): 8
+Thread 1 execution time (ms): 8
+Thread 2 execution time (ms): 8
+Thread 3 execution time (ms): 8
+[DEBUG] Running claude-bank-2 with: 8 Threads, 10000 Accounts, 10000 Iterations
+Total time: 9
+Final balance: 100000.0
+Thread 0 execution time (ms): 8
+Thread 1 execution time (ms): 8
+Thread 2 execution time (ms): 8
+Thread 3 execution time (ms): 8
+Thread 4 execution time (ms): 9
+Thread 5 execution time (ms): 8
+Thread 6 execution time (ms): 7
+Thread 7 execution time (ms): 8
+[DEBUG] Running claude-bank-2 with: 16 Threads, 10000 Accounts, 10000 Iterations
+Total time: 8
+Final balance: 100000.0
+Thread 0 execution time (ms): 7
+Thread 1 execution time (ms): 8
+Thread 2 execution time (ms): 7
+Thread 3 execution time (ms): 7
+Thread 4 execution time (ms): 6
+Thread 5 execution time (ms): 7
+Thread 6 execution time (ms): 6
+Thread 7 execution time (ms): 7
+Thread 8 execution time (ms): 8
+Thread 9 execution time (ms): 8
+Thread 10 execution time (ms): 7
+Thread 11 execution time (ms): 8
+Thread 12 execution time (ms): 8
+Thread 13 execution time (ms): 8
+Thread 14 execution time (ms): 7
+Thread 15 execution time (ms): 7
+[DEBUG] Running claude-bank-2 with: 2 Threads, 250 Accounts, 100000 Iterations
+Total time: 24
+Final balance: 100000.0
+Thread 0 execution time (ms): 24
+Thread 1 execution time (ms): 24
+[DEBUG] Running claude-bank-2 with: 4 Threads, 250 Accounts, 100000 Iterations
+Total time: 29
+Final balance: 100000.0
+Thread 0 execution time (ms): 28
+Thread 1 execution time (ms): 28
+Thread 2 execution time (ms): 28
+Thread 3 execution time (ms): 28
+[DEBUG] Running claude-bank-2 with: 8 Threads, 250 Accounts, 100000 Iterations
+Total time: 32
+Final balance: 100000.0
+Thread 0 execution time (ms): 29
+Thread 1 execution time (ms): 29
+Thread 2 execution time (ms): 31
+Thread 3 execution time (ms): 28
+Thread 4 execution time (ms): 30
+Thread 5 execution time (ms): 30
+Thread 6 execution time (ms): 30
+Thread 7 execution time (ms): 32
+[DEBUG] Running claude-bank-2 with: 16 Threads, 250 Accounts, 100000 Iterations
+Total time: 35
+Final balance: 100000.0
+Thread 0 execution time (ms): 34
+Thread 1 execution time (ms): 35
+Thread 2 execution time (ms): 35
+Thread 3 execution time (ms): 34
+Thread 4 execution time (ms): 33
+Thread 5 execution time (ms): 34
+Thread 6 execution time (ms): 34
+Thread 7 execution time (ms): 35
+Thread 8 execution time (ms): 33
+Thread 9 execution time (ms): 34
+Thread 10 execution time (ms): 34
+Thread 11 execution time (ms): 34
+Thread 12 execution time (ms): 34
+Thread 13 execution time (ms): 32
+Thread 14 execution time (ms): 33
+Thread 15 execution time (ms): 34
+[DEBUG] Running claude-bank-2 with: 2 Threads, 1000 Accounts, 100000 Iterations
+Total time: 30
+Final balance: 100000.0
+Thread 0 execution time (ms): 30
+Thread 1 execution time (ms): 29
+[DEBUG] Running claude-bank-2 with: 4 Threads, 1000 Accounts, 100000 Iterations
+Total time: 35
+Final balance: 100000.0
+Thread 0 execution time (ms): 35
+Thread 1 execution time (ms): 35
+Thread 2 execution time (ms): 35
+Thread 3 execution time (ms): 34
+[DEBUG] Running claude-bank-2 with: 8 Threads, 1000 Accounts, 100000 Iterations
+Total time: 37
+Final balance: 100000.0
+Thread 0 execution time (ms): 37
+Thread 1 execution time (ms): 37
+Thread 2 execution time (ms): 36
+Thread 3 execution time (ms): 35
+Thread 4 execution time (ms): 37
+Thread 5 execution time (ms): 37
+Thread 6 execution time (ms): 37
+Thread 7 execution time (ms): 37
+[DEBUG] Running claude-bank-2 with: 16 Threads, 1000 Accounts, 100000 Iterations
+Total time: 38
+Final balance: 100000.0
+Thread 0 execution time (ms): 34
+Thread 1 execution time (ms): 37
+Thread 2 execution time (ms): 36
+Thread 3 execution time (ms): 37
+Thread 4 execution time (ms): 34
+Thread 5 execution time (ms): 38
+Thread 6 execution time (ms): 38
+Thread 7 execution time (ms): 38
+Thread 8 execution time (ms): 38
+Thread 9 execution time (ms): 38
+Thread 10 execution time (ms): 36
+Thread 11 execution time (ms): 37
+Thread 12 execution time (ms): 37
+Thread 13 execution time (ms): 35
+Thread 14 execution time (ms): 38
+Thread 15 execution time (ms): 36
+[DEBUG] Running claude-bank-2 with: 2 Threads, 10000 Accounts, 100000 Iterations
+Total time: 80
+Final balance: 100000.0
+Thread 0 execution time (ms): 79
+Thread 1 execution time (ms): 79
+[DEBUG] Running claude-bank-2 with: 4 Threads, 10000 Accounts, 100000 Iterations
+Total time: 86
+Final balance: 100000.0
+Thread 0 execution time (ms): 86
+Thread 1 execution time (ms): 85
+Thread 2 execution time (ms): 86
+Thread 3 execution time (ms): 86
+[DEBUG] Running claude-bank-2 with: 8 Threads, 10000 Accounts, 100000 Iterations
+Total time: 87
+Final balance: 100000.0
+Thread 0 execution time (ms): 83
+Thread 1 execution time (ms): 87
+Thread 2 execution time (ms): 82
+Thread 3 execution time (ms): 86
+Thread 4 execution time (ms): 80
+Thread 5 execution time (ms): 86
+Thread 6 execution time (ms): 85
+Thread 7 execution time (ms): 85
+[DEBUG] Running claude-bank-2 with: 16 Threads, 10000 Accounts, 100000 Iterations
+Total time: 85
+Final balance: 100000.0
+Thread 0 execution time (ms): 81
+Thread 1 execution time (ms): 85
+Thread 2 execution time (ms): 83
+Thread 3 execution time (ms): 85
+Thread 4 execution time (ms): 84
+Thread 5 execution time (ms): 81
+Thread 6 execution time (ms): 84
+Thread 7 execution time (ms): 85
+Thread 8 execution time (ms): 85
+Thread 9 execution time (ms): 84
+Thread 10 execution time (ms): 83
+Thread 11 execution time (ms): 85
+Thread 12 execution time (ms): 83
+Thread 13 execution time (ms): 83
+Thread 14 execution time (ms): 84
+Thread 15 execution time (ms): 81
+[DEBUG] Running claude-bank-2 with: 2 Threads, 250 Accounts, 1000000 Iterations
+Total time: 221
+Final balance: 100000.0
+Thread 0 execution time (ms): 218
+Thread 1 execution time (ms): 221
+[DEBUG] Running claude-bank-2 with: 4 Threads, 250 Accounts, 1000000 Iterations
+Total time: 282
+Final balance: 100000.0
+Thread 0 execution time (ms): 281
+Thread 1 execution time (ms): 277
+Thread 2 execution time (ms): 281
+Thread 3 execution time (ms): 281
+[DEBUG] Running claude-bank-2 with: 8 Threads, 250 Accounts, 1000000 Iterations
+Total time: 314
+Final balance: 100000.0
+Thread 0 execution time (ms): 314
+Thread 1 execution time (ms): 314
+Thread 2 execution time (ms): 305
+Thread 3 execution time (ms): 309
+Thread 4 execution time (ms): 307
+Thread 5 execution time (ms): 294
+Thread 6 execution time (ms): 311
+Thread 7 execution time (ms): 306
+[DEBUG] Running claude-bank-2 with: 16 Threads, 250 Accounts, 1000000 Iterations
+Total time: 378
+Final balance: 100000.0
+Thread 0 execution time (ms): 376
+Thread 1 execution time (ms): 374
+Thread 2 execution time (ms): 376
+Thread 3 execution time (ms): 304
+Thread 4 execution time (ms): 377
+Thread 5 execution time (ms): 374
+Thread 6 execution time (ms): 377
+Thread 7 execution time (ms): 377
+Thread 8 execution time (ms): 378
+Thread 9 execution time (ms): 374
+Thread 10 execution time (ms): 371
+Thread 11 execution time (ms): 378
+Thread 12 execution time (ms): 366
+Thread 13 execution time (ms): 377
+Thread 14 execution time (ms): 377
+Thread 15 execution time (ms): 374
+[DEBUG] Running claude-bank-2 with: 2 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 312
+Final balance: 100000.0
+Thread 0 execution time (ms): 312
+Thread 1 execution time (ms): 309
+[DEBUG] Running claude-bank-2 with: 4 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 335
+Final balance: 100000.0
+Thread 0 execution time (ms): 329
+Thread 1 execution time (ms): 334
+Thread 2 execution time (ms): 335
+Thread 3 execution time (ms): 329
+[DEBUG] Running claude-bank-2 with: 8 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 387
+Final balance: 100000.0
+Thread 0 execution time (ms): 383
+Thread 1 execution time (ms): 387
+Thread 2 execution time (ms): 379
+Thread 3 execution time (ms): 386
+Thread 4 execution time (ms): 387
+Thread 5 execution time (ms): 380
+Thread 6 execution time (ms): 387
+Thread 7 execution time (ms): 387
+[DEBUG] Running claude-bank-2 with: 16 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 394
+Final balance: 100000.0
+Thread 0 execution time (ms): 394
+Thread 1 execution time (ms): 390
+Thread 2 execution time (ms): 391
+Thread 3 execution time (ms): 392
+Thread 4 execution time (ms): 386
+Thread 5 execution time (ms): 394
+Thread 6 execution time (ms): 390
+Thread 7 execution time (ms): 267
+Thread 8 execution time (ms): 394
+Thread 9 execution time (ms): 393
+Thread 10 execution time (ms): 389
+Thread 11 execution time (ms): 340
+Thread 12 execution time (ms): 394
+Thread 13 execution time (ms): 385
+Thread 14 execution time (ms): 393
+Thread 15 execution time (ms): 388
+[DEBUG] Running claude-bank-2 with: 2 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 868
+Final balance: 100000.0
+Thread 0 execution time (ms): 864
+Thread 1 execution time (ms): 868
+[DEBUG] Running claude-bank-2 with: 4 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 857
+Final balance: 100000.0
+Thread 0 execution time (ms): 856
+Thread 1 execution time (ms): 852
+Thread 2 execution time (ms): 846
+Thread 3 execution time (ms): 857
+[DEBUG] Running claude-bank-2 with: 8 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 855
+Final balance: 100000.0
+Thread 0 execution time (ms): 848
+Thread 1 execution time (ms): 855
+Thread 2 execution time (ms): 843
+Thread 3 execution time (ms): 854
+Thread 4 execution time (ms): 854
+Thread 5 execution time (ms): 845
+Thread 6 execution time (ms): 853
+Thread 7 execution time (ms): 849
+[DEBUG] Running claude-bank-2 with: 16 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 857
+Final balance: 100000.0
+Thread 0 execution time (ms): 856
+Thread 1 execution time (ms): 851
+Thread 2 execution time (ms): 851
+Thread 3 execution time (ms): 854
+Thread 4 execution time (ms): 853
+Thread 5 execution time (ms): 854
+Thread 6 execution time (ms): 856
+Thread 7 execution time (ms): 854
+Thread 8 execution time (ms): 843
+Thread 9 execution time (ms): 852
+Thread 10 execution time (ms): 856
+Thread 11 execution time (ms): 850
+Thread 12 execution time (ms): 850
+Thread 13 execution time (ms): 844
+Thread 14 execution time (ms): 845
+Thread 15 execution time (ms): 809
+[DEBUG] Running claude-bank-2 with: 2 Threads, 250 Accounts, 10000000 Iterations
+Total time: 2203
+Final balance: 100000.0
+Thread 0 execution time (ms): 2203
+Thread 1 execution time (ms): 2194
+[DEBUG] Running claude-bank-2 with: 4 Threads, 250 Accounts, 10000000 Iterations
+Total time: 2617
+Final balance: 100000.0
+Thread 0 execution time (ms): 2617
+Thread 1 execution time (ms): 2604
+Thread 2 execution time (ms): 2611
+Thread 3 execution time (ms): 2617
+[DEBUG] Running claude-bank-2 with: 8 Threads, 250 Accounts, 10000000 Iterations
+Total time: 2913
+Final balance: 100000.0
+Thread 0 execution time (ms): 2911
+Thread 1 execution time (ms): 2878
+Thread 2 execution time (ms): 2908
+Thread 3 execution time (ms): 2862
+Thread 4 execution time (ms): 2910
+Thread 5 execution time (ms): 2909
+Thread 6 execution time (ms): 2913
+Thread 7 execution time (ms): 2912
+[DEBUG] Running claude-bank-2 with: 16 Threads, 250 Accounts, 10000000 Iterations
+Total time: 3752
+Final balance: 100000.0
+Thread 0 execution time (ms): 3684
+Thread 1 execution time (ms): 3741
+Thread 2 execution time (ms): 3750
+Thread 3 execution time (ms): 3645
+Thread 4 execution time (ms): 3730
+Thread 5 execution time (ms): 3719
+Thread 6 execution time (ms): 3752
+Thread 7 execution time (ms): 3744
+Thread 8 execution time (ms): 3748
+Thread 9 execution time (ms): 3750
+Thread 10 execution time (ms): 3747
+Thread 11 execution time (ms): 3690
+Thread 12 execution time (ms): 3745
+Thread 13 execution time (ms): 3706
+Thread 14 execution time (ms): 3748
+Thread 15 execution time (ms): 3752
+[DEBUG] Running claude-bank-2 with: 2 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 3214
+Final balance: 100000.0
+Thread 0 execution time (ms): 3201
+Thread 1 execution time (ms): 3214
+[DEBUG] Running claude-bank-2 with: 4 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 3362
+Final balance: 100000.0
+Thread 0 execution time (ms): 3357
+Thread 1 execution time (ms): 3362
+Thread 2 execution time (ms): 3361
+Thread 3 execution time (ms): 3349
+[DEBUG] Running claude-bank-2 with: 8 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 3715
+Final balance: 100000.0
+Thread 0 execution time (ms): 3715
+Thread 1 execution time (ms): 3685
+Thread 2 execution time (ms): 3711
+Thread 3 execution time (ms): 3667
+Thread 4 execution time (ms): 3714
+Thread 5 execution time (ms): 3713
+Thread 6 execution time (ms): 3700
+Thread 7 execution time (ms): 3688
+[DEBUG] Running claude-bank-2 with: 16 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 3783
+Final balance: 100000.0
+Thread 0 execution time (ms): 3690
+Thread 1 execution time (ms): 3781
+Thread 2 execution time (ms): 3783
+Thread 3 execution time (ms): 3763
+Thread 4 execution time (ms): 3751
+Thread 5 execution time (ms): 3783
+Thread 6 execution time (ms): 3777
+Thread 7 execution time (ms): 3765
+Thread 8 execution time (ms): 3771
+Thread 9 execution time (ms): 3783
+Thread 10 execution time (ms): 3782
+Thread 11 execution time (ms): 3775
+Thread 12 execution time (ms): 3775
+Thread 13 execution time (ms): 3781
+Thread 14 execution time (ms): 3780
+Thread 15 execution time (ms): 3768
+[DEBUG] Running claude-bank-2 with: 2 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 7971
+Final balance: 100000.0
+Thread 0 execution time (ms): 7970
+Thread 1 execution time (ms): 7958
+[DEBUG] Running claude-bank-2 with: 4 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 8703
+Final balance: 100000.0
+Thread 0 execution time (ms): 8700
+Thread 1 execution time (ms): 8684
+Thread 2 execution time (ms): 8703
+Thread 3 execution time (ms): 8676
+[DEBUG] Running claude-bank-2 with: 8 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 8549
+Final balance: 100000.0
+Thread 0 execution time (ms): 8549
+Thread 1 execution time (ms): 8548
+Thread 2 execution time (ms): 8520
+Thread 3 execution time (ms): 8526
+Thread 4 execution time (ms): 8548
+Thread 5 execution time (ms): 8542
+Thread 6 execution time (ms): 8464
+Thread 7 execution time (ms): 8528
+[DEBUG] Running claude-bank-2 with: 16 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 8882
+Final balance: 100000.0
+Thread 0 execution time (ms): 8872
+Thread 1 execution time (ms): 8881
+Thread 2 execution time (ms): 8877
+Thread 3 execution time (ms): 8869
+Thread 4 execution time (ms): 8878
+Thread 5 execution time (ms): 8882
+Thread 6 execution time (ms): 8866
+Thread 7 execution time (ms): 8879
+Thread 8 execution time (ms): 8788
+Thread 9 execution time (ms): 8878
+Thread 10 execution time (ms): 8854
+Thread 11 execution time (ms): 8870
+Thread 12 execution time (ms): 8849
+Thread 13 execution time (ms): 8795
+Thread 14 execution time (ms): 8859
+Thread 15 execution time (ms): 8851
