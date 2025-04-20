@@ -1,0 +1,631 @@
+
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 250 Accounts, 1000 Iterations
+Total time: 0
+Final balance: 100000
+Thread 0 execution time (ms): 0
+Thread 1 execution time (ms): 0
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 250 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 100000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+Thread 2 execution time (ms): 1
+Thread 3 execution time (ms): 1
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 250 Accounts, 1000 Iterations
+Total time: 3
+Final balance: 100000
+Thread 0 execution time (ms): 3
+Thread 1 execution time (ms): 3
+Thread 2 execution time (ms): 3
+Thread 3 execution time (ms): 3
+Thread 4 execution time (ms): 3
+Thread 5 execution time (ms): 3
+Thread 6 execution time (ms): 3
+Thread 7 execution time (ms): 3
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 250 Accounts, 1000 Iterations
+Total time: 8
+Final balance: 100000
+Thread 0 execution time (ms): 7
+Thread 1 execution time (ms): 8
+Thread 2 execution time (ms): 8
+Thread 3 execution time (ms): 8
+Thread 4 execution time (ms): 8
+Thread 5 execution time (ms): 8
+Thread 6 execution time (ms): 8
+Thread 7 execution time (ms): 8
+Thread 8 execution time (ms): 8
+Thread 9 execution time (ms): 8
+Thread 10 execution time (ms): 8
+Thread 11 execution time (ms): 8
+Thread 12 execution time (ms): 8
+Thread 13 execution time (ms): 8
+Thread 14 execution time (ms): 8
+Thread 15 execution time (ms): 8
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 1000 Accounts, 1000 Iterations
+Total time: 1
+Final balance: 100000
+Thread 0 execution time (ms): 1
+Thread 1 execution time (ms): 1
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 1000 Accounts, 1000 Iterations
+Total time: 2
+Final balance: 100000
+Thread 0 execution time (ms): 2
+Thread 1 execution time (ms): 2
+Thread 2 execution time (ms): 2
+Thread 3 execution time (ms): 2
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 1000 Accounts, 1000 Iterations
+Total time: 5
+Final balance: 100000
+Thread 0 execution time (ms): 5
+Thread 1 execution time (ms): 5
+Thread 2 execution time (ms): 5
+Thread 3 execution time (ms): 5
+Thread 4 execution time (ms): 5
+Thread 5 execution time (ms): 5
+Thread 6 execution time (ms): 5
+Thread 7 execution time (ms): 5
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 1000 Accounts, 1000 Iterations
+Total time: 10
+Final balance: 100000
+Thread 0 execution time (ms): 10
+Thread 1 execution time (ms): 10
+Thread 2 execution time (ms): 10
+Thread 3 execution time (ms): 10
+Thread 4 execution time (ms): 10
+Thread 5 execution time (ms): 10
+Thread 6 execution time (ms): 10
+Thread 7 execution time (ms): 10
+Thread 8 execution time (ms): 10
+Thread 9 execution time (ms): 10
+Thread 10 execution time (ms): 10
+Thread 11 execution time (ms): 9
+Thread 12 execution time (ms): 10
+Thread 13 execution time (ms): 10
+Thread 14 execution time (ms): 10
+Thread 15 execution time (ms): 10
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 10000 Accounts, 1000 Iterations
+Total time: 6
+Final balance: 100000
+Thread 0 execution time (ms): 6
+Thread 1 execution time (ms): 6
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 10000 Accounts, 1000 Iterations
+Total time: 12
+Final balance: 100000
+Thread 0 execution time (ms): 11
+Thread 1 execution time (ms): 12
+Thread 2 execution time (ms): 12
+Thread 3 execution time (ms): 12
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 10000 Accounts, 1000 Iterations
+Total time: 26
+Final balance: 100000
+Thread 0 execution time (ms): 25
+Thread 1 execution time (ms): 25
+Thread 2 execution time (ms): 25
+Thread 3 execution time (ms): 26
+Thread 4 execution time (ms): 25
+Thread 5 execution time (ms): 24
+Thread 6 execution time (ms): 26
+Thread 7 execution time (ms): 25
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 10000 Accounts, 1000 Iterations
+Total time: 54
+Final balance: 100000
+Thread 0 execution time (ms): 53
+Thread 1 execution time (ms): 47
+Thread 2 execution time (ms): 51
+Thread 3 execution time (ms): 53
+Thread 4 execution time (ms): 53
+Thread 5 execution time (ms): 52
+Thread 6 execution time (ms): 50
+Thread 7 execution time (ms): 53
+Thread 8 execution time (ms): 50
+Thread 9 execution time (ms): 53
+Thread 10 execution time (ms): 49
+Thread 11 execution time (ms): 46
+Thread 12 execution time (ms): 53
+Thread 13 execution time (ms): 53
+Thread 14 execution time (ms): 51
+Thread 15 execution time (ms): 50
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 250 Accounts, 10000 Iterations
+Total time: 7
+Final balance: 100000
+Thread 0 execution time (ms): 7
+Thread 1 execution time (ms): 7
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 250 Accounts, 10000 Iterations
+Total time: 17
+Final balance: 100000
+Thread 0 execution time (ms): 16
+Thread 1 execution time (ms): 16
+Thread 2 execution time (ms): 16
+Thread 3 execution time (ms): 16
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 250 Accounts, 10000 Iterations
+Total time: 40
+Final balance: 100000
+Thread 0 execution time (ms): 38
+Thread 1 execution time (ms): 40
+Thread 2 execution time (ms): 39
+Thread 3 execution time (ms): 40
+Thread 4 execution time (ms): 40
+Thread 5 execution time (ms): 40
+Thread 6 execution time (ms): 40
+Thread 7 execution time (ms): 39
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 250 Accounts, 10000 Iterations
+Total time: 83
+Final balance: 100000
+Thread 0 execution time (ms): 83
+Thread 1 execution time (ms): 82
+Thread 2 execution time (ms): 82
+Thread 3 execution time (ms): 83
+Thread 4 execution time (ms): 83
+Thread 5 execution time (ms): 82
+Thread 6 execution time (ms): 82
+Thread 7 execution time (ms): 83
+Thread 8 execution time (ms): 82
+Thread 9 execution time (ms): 82
+Thread 10 execution time (ms): 83
+Thread 11 execution time (ms): 82
+Thread 12 execution time (ms): 82
+Thread 13 execution time (ms): 81
+Thread 14 execution time (ms): 82
+Thread 15 execution time (ms): 83
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 1000 Accounts, 10000 Iterations
+Total time: 11
+Final balance: 100000
+Thread 0 execution time (ms): 10
+Thread 1 execution time (ms): 10
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 1000 Accounts, 10000 Iterations
+Total time: 25
+Final balance: 100000
+Thread 0 execution time (ms): 24
+Thread 1 execution time (ms): 24
+Thread 2 execution time (ms): 24
+Thread 3 execution time (ms): 25
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 1000 Accounts, 10000 Iterations
+Total time: 53
+Final balance: 100000
+Thread 0 execution time (ms): 52
+Thread 1 execution time (ms): 51
+Thread 2 execution time (ms): 52
+Thread 3 execution time (ms): 52
+Thread 4 execution time (ms): 51
+Thread 5 execution time (ms): 53
+Thread 6 execution time (ms): 51
+Thread 7 execution time (ms): 51
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 1000 Accounts, 10000 Iterations
+Total time: 107
+Final balance: 100000
+Thread 0 execution time (ms): 103
+Thread 1 execution time (ms): 105
+Thread 2 execution time (ms): 105
+Thread 3 execution time (ms): 106
+Thread 4 execution time (ms): 104
+Thread 5 execution time (ms): 106
+Thread 6 execution time (ms): 107
+Thread 7 execution time (ms): 106
+Thread 8 execution time (ms): 107
+Thread 9 execution time (ms): 104
+Thread 10 execution time (ms): 104
+Thread 11 execution time (ms): 105
+Thread 12 execution time (ms): 107
+Thread 13 execution time (ms): 106
+Thread 14 execution time (ms): 106
+Thread 15 execution time (ms): 105
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 10000 Accounts, 10000 Iterations
+Total time: 62
+Final balance: 100000
+Thread 0 execution time (ms): 62
+Thread 1 execution time (ms): 62
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 10000 Accounts, 10000 Iterations
+Total time: 120
+Final balance: 100000
+Thread 0 execution time (ms): 120
+Thread 1 execution time (ms): 114
+Thread 2 execution time (ms): 119
+Thread 3 execution time (ms): 119
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 10000 Accounts, 10000 Iterations
+Total time: 256
+Final balance: 100000
+Thread 0 execution time (ms): 256
+Thread 1 execution time (ms): 254
+Thread 2 execution time (ms): 255
+Thread 3 execution time (ms): 250
+Thread 4 execution time (ms): 253
+Thread 5 execution time (ms): 247
+Thread 6 execution time (ms): 255
+Thread 7 execution time (ms): 255
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 10000 Accounts, 10000 Iterations
+Total time: 532
+Final balance: 100000
+Thread 0 execution time (ms): 514
+Thread 1 execution time (ms): 531
+Thread 2 execution time (ms): 521
+Thread 3 execution time (ms): 513
+Thread 4 execution time (ms): 532
+Thread 5 execution time (ms): 510
+Thread 6 execution time (ms): 528
+Thread 7 execution time (ms): 509
+Thread 8 execution time (ms): 524
+Thread 9 execution time (ms): 528
+Thread 10 execution time (ms): 522
+Thread 11 execution time (ms): 532
+Thread 12 execution time (ms): 532
+Thread 13 execution time (ms): 527
+Thread 14 execution time (ms): 524
+Thread 15 execution time (ms): 528
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 250 Accounts, 100000 Iterations
+Total time: 70
+Final balance: 100000
+Thread 0 execution time (ms): 70
+Thread 1 execution time (ms): 70
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 250 Accounts, 100000 Iterations
+Total time: 170
+Final balance: 100000
+Thread 0 execution time (ms): 168
+Thread 1 execution time (ms): 169
+Thread 2 execution time (ms): 170
+Thread 3 execution time (ms): 170
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 250 Accounts, 100000 Iterations
+Total time: 392
+Final balance: 100000
+Thread 0 execution time (ms): 383
+Thread 1 execution time (ms): 388
+Thread 2 execution time (ms): 392
+Thread 3 execution time (ms): 392
+Thread 4 execution time (ms): 386
+Thread 5 execution time (ms): 391
+Thread 6 execution time (ms): 388
+Thread 7 execution time (ms): 386
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 250 Accounts, 100000 Iterations
+Total time: 864
+Final balance: 100000
+Thread 0 execution time (ms): 860
+Thread 1 execution time (ms): 863
+Thread 2 execution time (ms): 864
+Thread 3 execution time (ms): 864
+Thread 4 execution time (ms): 863
+Thread 5 execution time (ms): 862
+Thread 6 execution time (ms): 862
+Thread 7 execution time (ms): 864
+Thread 8 execution time (ms): 864
+Thread 9 execution time (ms): 863
+Thread 10 execution time (ms): 864
+Thread 11 execution time (ms): 861
+Thread 12 execution time (ms): 863
+Thread 13 execution time (ms): 861
+Thread 14 execution time (ms): 861
+Thread 15 execution time (ms): 864
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 1000 Accounts, 100000 Iterations
+Total time: 112
+Final balance: 100000
+Thread 0 execution time (ms): 111
+Thread 1 execution time (ms): 112
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 1000 Accounts, 100000 Iterations
+Total time: 252
+Final balance: 100000
+Thread 0 execution time (ms): 252
+Thread 1 execution time (ms): 250
+Thread 2 execution time (ms): 250
+Thread 3 execution time (ms): 251
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 1000 Accounts, 100000 Iterations
+Total time: 539
+Final balance: 100000
+Thread 0 execution time (ms): 531
+Thread 1 execution time (ms): 538
+Thread 2 execution time (ms): 538
+Thread 3 execution time (ms): 537
+Thread 4 execution time (ms): 538
+Thread 5 execution time (ms): 534
+Thread 6 execution time (ms): 533
+Thread 7 execution time (ms): 530
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 1000 Accounts, 100000 Iterations
+Total time: 1110
+Final balance: 100000
+Thread 0 execution time (ms): 1102
+Thread 1 execution time (ms): 1090
+Thread 2 execution time (ms): 1108
+Thread 3 execution time (ms): 1104
+Thread 4 execution time (ms): 1108
+Thread 5 execution time (ms): 1101
+Thread 6 execution time (ms): 1107
+Thread 7 execution time (ms): 1104
+Thread 8 execution time (ms): 1104
+Thread 9 execution time (ms): 1109
+Thread 10 execution time (ms): 1102
+Thread 11 execution time (ms): 1108
+Thread 12 execution time (ms): 1109
+Thread 13 execution time (ms): 1109
+Thread 14 execution time (ms): 1107
+Thread 15 execution time (ms): 1109
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 10000 Accounts, 100000 Iterations
+Total time: 627
+Final balance: 100000
+Thread 0 execution time (ms): 627
+Thread 1 execution time (ms): 619
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 10000 Accounts, 100000 Iterations
+Total time: 1267
+Final balance: 100000
+Thread 0 execution time (ms): 1267
+Thread 1 execution time (ms): 1265
+Thread 2 execution time (ms): 1267
+Thread 3 execution time (ms): 1256
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 10000 Accounts, 100000 Iterations
+Total time: 2581
+Final balance: 100000
+Thread 0 execution time (ms): 2564
+Thread 1 execution time (ms): 2556
+Thread 2 execution time (ms): 2581
+Thread 3 execution time (ms): 2574
+Thread 4 execution time (ms): 2572
+Thread 5 execution time (ms): 2576
+Thread 6 execution time (ms): 2566
+Thread 7 execution time (ms): 2566
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 10000 Accounts, 100000 Iterations
+Total time: 5401
+Final balance: 100000
+Thread 0 execution time (ms): 5389
+Thread 1 execution time (ms): 5305
+Thread 2 execution time (ms): 5387
+Thread 3 execution time (ms): 5347
+Thread 4 execution time (ms): 5341
+Thread 5 execution time (ms): 5382
+Thread 6 execution time (ms): 5362
+Thread 7 execution time (ms): 5367
+Thread 8 execution time (ms): 5367
+Thread 9 execution time (ms): 5400
+Thread 10 execution time (ms): 5387
+Thread 11 execution time (ms): 5264
+Thread 12 execution time (ms): 5401
+Thread 13 execution time (ms): 5381
+Thread 14 execution time (ms): 5397
+Thread 15 execution time (ms): 5401
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 250 Accounts, 1000000 Iterations
+Total time: 681
+Final balance: 100000
+Thread 0 execution time (ms): 681
+Thread 1 execution time (ms): 678
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 250 Accounts, 1000000 Iterations
+Total time: 1657
+Final balance: 100000
+Thread 0 execution time (ms): 1641
+Thread 1 execution time (ms): 1656
+Thread 2 execution time (ms): 1657
+Thread 3 execution time (ms): 1656
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 250 Accounts, 1000000 Iterations
+Total time: 3902
+Final balance: 100000
+Thread 0 execution time (ms): 3895
+Thread 1 execution time (ms): 3899
+Thread 2 execution time (ms): 3902
+Thread 3 execution time (ms): 3902
+Thread 4 execution time (ms): 3884
+Thread 5 execution time (ms): 3898
+Thread 6 execution time (ms): 3895
+Thread 7 execution time (ms): 3902
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 250 Accounts, 1000000 Iterations
+Total time: 8472
+Final balance: 100000
+Thread 0 execution time (ms): 8472
+Thread 1 execution time (ms): 8464
+Thread 2 execution time (ms): 8468
+Thread 3 execution time (ms): 8461
+Thread 4 execution time (ms): 8472
+Thread 5 execution time (ms): 8461
+Thread 6 execution time (ms): 8450
+Thread 7 execution time (ms): 8470
+Thread 8 execution time (ms): 8466
+Thread 9 execution time (ms): 8469
+Thread 10 execution time (ms): 8470
+Thread 11 execution time (ms): 8472
+Thread 12 execution time (ms): 8464
+Thread 13 execution time (ms): 8469
+Thread 14 execution time (ms): 8469
+Thread 15 execution time (ms): 8457
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 1074
+Final balance: 100000
+Thread 0 execution time (ms): 1071
+Thread 1 execution time (ms): 1074
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 2503
+Final balance: 100000
+Thread 0 execution time (ms): 2502
+Thread 1 execution time (ms): 2502
+Thread 2 execution time (ms): 2496
+Thread 3 execution time (ms): 2491
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 5403
+Final balance: 100000
+Thread 0 execution time (ms): 5392
+Thread 1 execution time (ms): 5402
+Thread 2 execution time (ms): 5385
+Thread 3 execution time (ms): 5397
+Thread 4 execution time (ms): 5403
+Thread 5 execution time (ms): 5403
+Thread 6 execution time (ms): 5401
+Thread 7 execution time (ms): 5400
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 1000 Accounts, 1000000 Iterations
+Total time: 10927
+Final balance: 100000
+Thread 0 execution time (ms): 10901
+Thread 1 execution time (ms): 10913
+Thread 2 execution time (ms): 10927
+Thread 3 execution time (ms): 10926
+Thread 4 execution time (ms): 10846
+Thread 5 execution time (ms): 10924
+Thread 6 execution time (ms): 10882
+Thread 7 execution time (ms): 10920
+Thread 8 execution time (ms): 10926
+Thread 9 execution time (ms): 10922
+Thread 10 execution time (ms): 10927
+Thread 11 execution time (ms): 10919
+Thread 12 execution time (ms): 10920
+Thread 13 execution time (ms): 10908
+Thread 14 execution time (ms): 10909
+Thread 15 execution time (ms): 10927
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 5939
+Final balance: 100000
+Thread 0 execution time (ms): 5939
+Thread 1 execution time (ms): 5826
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 12655
+Final balance: 100000
+Thread 0 execution time (ms): 12655
+Thread 1 execution time (ms): 12608
+Thread 2 execution time (ms): 12635
+Thread 3 execution time (ms): 12655
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 26354
+Final balance: 100000
+Thread 0 execution time (ms): 26347
+Thread 1 execution time (ms): 26230
+Thread 2 execution time (ms): 26354
+Thread 3 execution time (ms): 26296
+Thread 4 execution time (ms): 26352
+Thread 5 execution time (ms): 26276
+Thread 6 execution time (ms): 26300
+Thread 7 execution time (ms): 26323
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 10000 Accounts, 1000000 Iterations
+Total time: 53792
+Final balance: 100000
+Thread 0 execution time (ms): 53487
+Thread 1 execution time (ms): 53685
+Thread 2 execution time (ms): 53730
+Thread 3 execution time (ms): 53792
+Thread 4 execution time (ms): 53787
+Thread 5 execution time (ms): 53747
+Thread 6 execution time (ms): 53726
+Thread 7 execution time (ms): 53636
+Thread 8 execution time (ms): 53744
+Thread 9 execution time (ms): 53589
+Thread 10 execution time (ms): 53537
+Thread 11 execution time (ms): 53776
+Thread 12 execution time (ms): 53573
+Thread 13 execution time (ms): 53751
+Thread 14 execution time (ms): 53725
+Thread 15 execution time (ms): 53775
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 250 Accounts, 10000000 Iterations
+Total time: 6596
+Final balance: 100000
+Thread 0 execution time (ms): 6578
+Thread 1 execution time (ms): 6596
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 250 Accounts, 10000000 Iterations
+Total time: 16548
+Final balance: 100000
+Thread 0 execution time (ms): 16544
+Thread 1 execution time (ms): 16548
+Thread 2 execution time (ms): 16530
+Thread 3 execution time (ms): 16539
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 250 Accounts, 10000000 Iterations
+Total time: 38993
+Final balance: 100000
+Thread 0 execution time (ms): 38966
+Thread 1 execution time (ms): 38993
+Thread 2 execution time (ms): 38991
+Thread 3 execution time (ms): 38972
+Thread 4 execution time (ms): 38986
+Thread 5 execution time (ms): 38982
+Thread 6 execution time (ms): 38874
+Thread 7 execution time (ms): 38929
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 250 Accounts, 10000000 Iterations
+Total time: 88132
+Final balance: 100000
+Thread 0 execution time (ms): 88116
+Thread 1 execution time (ms): 87999
+Thread 2 execution time (ms): 88128
+Thread 3 execution time (ms): 88073
+Thread 4 execution time (ms): 88027
+Thread 5 execution time (ms): 88065
+Thread 6 execution time (ms): 88069
+Thread 7 execution time (ms): 88130
+Thread 8 execution time (ms): 88132
+Thread 9 execution time (ms): 88032
+Thread 10 execution time (ms): 88086
+Thread 11 execution time (ms): 88111
+Thread 12 execution time (ms): 88120
+Thread 13 execution time (ms): 88107
+Thread 14 execution time (ms): 87996
+Thread 15 execution time (ms): 88094
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 10414
+Final balance: 100000
+Thread 0 execution time (ms): 10413
+Thread 1 execution time (ms): 10340
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 24955
+Final balance: 100000
+Thread 0 execution time (ms): 24955
+Thread 1 execution time (ms): 24936
+Thread 2 execution time (ms): 24876
+Thread 3 execution time (ms): 24897
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 54065
+Final balance: 100000
+Thread 0 execution time (ms): 54065
+Thread 1 execution time (ms): 54044
+Thread 2 execution time (ms): 53989
+Thread 3 execution time (ms): 54065
+Thread 4 execution time (ms): 53846
+Thread 5 execution time (ms): 54010
+Thread 6 execution time (ms): 54017
+Thread 7 execution time (ms): 54004
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 1000 Accounts, 10000000 Iterations
+Total time: 109579
+Final balance: 100000
+Thread 0 execution time (ms): 109487
+Thread 1 execution time (ms): 109572
+Thread 2 execution time (ms): 109507
+Thread 3 execution time (ms): 109562
+Thread 4 execution time (ms): 109327
+Thread 5 execution time (ms): 109533
+Thread 6 execution time (ms): 109530
+Thread 7 execution time (ms): 109579
+Thread 8 execution time (ms): 109473
+Thread 9 execution time (ms): 109565
+Thread 10 execution time (ms): 109578
+Thread 11 execution time (ms): 109512
+Thread 12 execution time (ms): 109540
+Thread 13 execution time (ms): 109484
+Thread 14 execution time (ms): 109558
+Thread 15 execution time (ms): 109501
+[DEBUG] Running gemini-bank-1 with: 2 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 58890
+Final balance: 100000
+Thread 0 execution time (ms): 58890
+Thread 1 execution time (ms): 57920
+[DEBUG] Running gemini-bank-1 with: 4 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 128585
+Final balance: 100000
+Thread 0 execution time (ms): 128284
+Thread 1 execution time (ms): 128380
+Thread 2 execution time (ms): 128517
+Thread 3 execution time (ms): 128585
+[DEBUG] Running gemini-bank-1 with: 8 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 264413
+Final balance: 100000
+Thread 0 execution time (ms): 264413
+Thread 1 execution time (ms): 264118
+Thread 2 execution time (ms): 263498
+Thread 3 execution time (ms): 264301
+Thread 4 execution time (ms): 264205
+Thread 5 execution time (ms): 264252
+Thread 6 execution time (ms): 264124
+Thread 7 execution time (ms): 263762
+[DEBUG] Running gemini-bank-1 with: 16 Threads, 10000 Accounts, 10000000 Iterations
+Total time: 525487
+Final balance: 100000
+Thread 0 execution time (ms): 525109
+Thread 1 execution time (ms): 525457
+Thread 2 execution time (ms): 524961
+Thread 3 execution time (ms): 524230
+Thread 4 execution time (ms): 524892
+Thread 5 execution time (ms): 524816
+Thread 6 execution time (ms): 524799
+Thread 7 execution time (ms): 524932
+Thread 8 execution time (ms): 525487
+Thread 9 execution time (ms): 525137
+Thread 10 execution time (ms): 524532
+Thread 11 execution time (ms): 525096
+Thread 12 execution time (ms): 524802
+Thread 13 execution time (ms): 525479
+Thread 14 execution time (ms): 524861
+Thread 15 execution time (ms): 525272
