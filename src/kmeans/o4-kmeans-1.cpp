@@ -15,6 +15,9 @@ int main() {
         return 1;
     }
 
+    //--- NEW: Log number of rows
+    cout << "Number of rows: " << total_points << "\n";
+
     //--- 2) Load data points
     vector<vector<double>> points(total_points, vector<double>(total_values));
     string tmp_name;
@@ -55,7 +58,6 @@ int main() {
         // 4a) Assignment step
         #pragma omp parallel for schedule(static) reduction(|:changed)
         for (int i = 0; i < total_points; i++) {
-            // find nearest centroid
             int best = 0;
             double best_dist = 0;
             for (int d = 0; d < total_values; d++) {
@@ -118,7 +120,18 @@ int main() {
     auto t1 = Clock::now();
     long long ms = chrono::duration_cast<chrono::milliseconds>(t1 - t0).count();
 
-    //--- 5) Print only the required total time
+    //--- 5) Updated Logging
     cout << "Total time: " << ms << "\n";
+    cout << "Break in iteration: " << iter << "\n\n";
+
+    //--- 6) Print centroids for each cluster
+    for (int c = 0; c < K; c++) {
+        cout << "Cluster " << (c+1) << ":";
+        for (int d = 0; d < total_values; d++) {
+            cout << " " << centroids[c][d];
+        }
+        cout << "\n";
+    }
+
     return 0;
 }
