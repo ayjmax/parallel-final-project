@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Check if all required arguments are provided
-if [ $# -ne 3 ]; then
+if [ $# -ne 2 ]; then
     echo "Error: Missing arguments"
     echo "Usage: $0 <homework_name> <model_name> <version>"
     exit 1
 fi
 
-TESTING_HW=$1 # Get first argument as homework name
-TESTING_MODEL=$2 # Get second argument as model name
-VERSION=$3
+TESTING_HW="bank" # Get first argument as homework name
+TESTING_MODEL=$1 # Get second argument as model name
+VERSION=$2
 OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV file
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
