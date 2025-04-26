@@ -14,7 +14,7 @@ OUTPUT_CSV_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.csv" # Output CSV f
 OUTPUT_TXT_FILE="results/$TESTING_HW/$TESTING_MODEL-$VERSION.txt" # Output TXT file
 
 # Clear CSV, write header
-echo "Dataset,Time(ms)" > "$OUTPUT_CSV_FILE"
+echo "Implementation,Dataset,Time(ms)" > "$OUTPUT_CSV_FILE"
 echo "testing $TESTING_MODEL"
 
 # Clear TXT
