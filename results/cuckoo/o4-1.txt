@@ -1,0 +1,161 @@
+
+[DEBUG] Running o4-cuckoo-1 with: 2 Threads, 1000 Operations
+Total time: 243
+Average time per operation: 0.243
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424283
+Final hashset size: 4424283
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 4 Threads, 1000 Operations
+Total time: 208
+Average time per operation: 0.208
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424292
+Final hashset size: 4424292
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 8 Threads, 1000 Operations
+Total time: 270
+Average time per operation: 0.27
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424270
+Final hashset size: 4424270
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 16 Threads, 1000 Operations
+Total time: 543
+Average time per operation: 0.543
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424277
+Final hashset size: 4424277
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 2 Threads, 10000 Operations
+Total time: 908
+Average time per operation: 0.0908
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424756
+Final hashset size: 4424756
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 4 Threads, 10000 Operations
+Total time: 600
+Average time per operation: 0.06
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424774
+Final hashset size: 4424774
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 8 Threads, 10000 Operations
+Total time: 418
+Average time per operation: 0.0418
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424770
+Final hashset size: 4424770
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 16 Threads, 10000 Operations
+Total time: 1598
+Average time per operation: 0.1598
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4424799
+Final hashset size: 4424799
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 2 Threads, 100000 Operations
+Total time: 7778
+Average time per operation: 0.07778
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4429917
+Final hashset size: 4429917
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 4 Threads, 100000 Operations
+Total time: 4298
+Average time per operation: 0.04298
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4429776
+Final hashset size: 4429776
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 8 Threads, 100000 Operations
+Total time: 2774
+Average time per operation: 0.02774
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4429787
+Final hashset size: 4429787
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 16 Threads, 100000 Operations
+Total time: 2150
+Average time per operation: 0.0215
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4429817
+Final hashset size: 4429817
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 2 Threads, 1000000 Operations
+Total time: 93796
+Average time per operation: 0.093796
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4480126
+Final hashset size: 4480126
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 4 Threads, 1000000 Operations
+Total time: 47940
+Average time per operation: 0.04794
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4479918
+Final hashset size: 4479918
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 8 Threads, 1000000 Operations
+Total time: 23844
+Average time per operation: 0.023844
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4479478
+Final hashset size: 4479478
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 16 Threads, 1000000 Operations
+Total time: 15643
+Average time per operation: 0.015643
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4479844
+Final hashset size: 4479844
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 2 Threads, 10000000 Operations
+Total time: 754432
+Average time per operation: 0.0754432
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4954183
+Final hashset size: 4954183
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 4 Threads, 10000000 Operations
+Total time: 415655
+Average time per operation: 0.0415655
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4954330
+Final hashset size: 4954330
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 8 Threads, 10000000 Operations
+Total time: 246156
+Average time per operation: 0.0246156
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4954548
+Final hashset size: 4954548
+Final hashset capacity: 10000000
+[DEBUG] Running o4-cuckoo-1 with: 16 Threads, 10000000 Operations
+Total time: 153297
+Average time per operation: 0.0153297
+Hashset initial size: 4424224
+Hashset initial capacity: 10000000
+Expected size: 4955134
+Final hashset size: 4955134
+Final hashset capacity: 10000000
