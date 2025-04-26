@@ -19,14 +19,33 @@ int main() {
     cout << "Number of rows: " << total_points << "\n";
 
     //--- 2) Load data points
+    // vector<vector<double>> points(total_points, vector<double>(total_values));
+    // string tmp_name;
+    // for (int i = 0; i < total_points; i++) {
+    //     for (int j = 0; j < total_values; j++) {
+    //         cin >> points[i][j];
+    //     }
+    //     if (has_name) {
+    //         cin >> tmp_name;  // skip name
+    //     }
+    // }
     vector<vector<double>> points(total_points, vector<double>(total_values));
-    string tmp_name;
+    string line, tmp_name;
+    // skip any leftover newline after header
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     for (int i = 0; i < total_points; i++) {
+        if (!getline(cin, line)) {
+            cerr << "Error reading data row " << i << "\n";
+            return 1;
+        }
+        // replace commas with spaces so stringstream can parse
+        for (char &c : line) if (c == ',') c = ' ';
+        istringstream ss(line);
         for (int j = 0; j < total_values; j++) {
-            cin >> points[i][j];
+            ss >> points[i][j];
         }
         if (has_name) {
-            cin >> tmp_name;  // skip name
+            ss >> tmp_name;  // skip any trailing name
         }
     }
 
