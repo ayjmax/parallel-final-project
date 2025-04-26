@@ -39,7 +39,7 @@ if [ "$DATASET" == "exchange" ]; then
         echo "$debug_message"
 
         # Run the program with the dataset as input
-        OUTPUT=$(cat "$dataset" | ./bin/kmeans/${TESTING_MODEL}-${VERSION})
+        OUTPUT=$(cat "$dataset" | ./bin/$TESTING_HW/$TESTING_MODEL-$VERSION)
 
         # Write to TXT
         echo "$debug_message" >> "$OUTPUT_TXT_FILE"
@@ -54,7 +54,7 @@ if [ "$DATASET" == "exchange" ]; then
     done
 elif [ "$DATASET" == "drybean" ]; then
     # Run the program with the dataset as input
-    OUTPUT=$(cat "$DATASET" | ./bin/kmeans/${TESTING_MODEL}-${VERSION})
+    OUTPUT=$(cat "/proj/cse375-475/exchange/drybean/drybean1.txt" | ./bin/$TESTING_HW/$TESTING_MODEL-$VERSION)
 
     # Write to CSV
     total_time=$(echo "$OUTPUT" | grep 'Total time:'    | cut -d' ' -f3)
