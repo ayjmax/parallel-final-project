@@ -67,7 +67,7 @@ int main() {
     bool changed = true;
     int iter = 0;
 
-    auto t0 = Clock::now();
+    auto t0 = chrono::high_resolution_clock::now();
 
     //--- 4) Main Lloyd loop
     while (changed && iter < max_iterations) {
@@ -136,11 +136,11 @@ int main() {
         }
     }
 
-    auto t1 = Clock::now();
-    long long ms = chrono::duration_cast<chrono::milliseconds>(t1 - t0).count();
+    auto t1 = chrono::high_resolution_clock::now();
+    long long us = chrono::duration_cast<chrono::microseconds>(t1 - t0).count();
 
     //--- 5) Updated Logging
-    cout << "Total time: " << ms << "\n";
+    cout << "Total time: " << us << "\n";
     cout << "Break in iteration: " << iter << "\n\n";
 
     //--- 6) Print centroids for each cluster

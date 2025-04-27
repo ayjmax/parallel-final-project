@@ -56,7 +56,7 @@ int main(){
 
     bool changed = true;
     int iter = 0;
-    auto t0 = Clock::now();
+    auto t0 = chrono::high_resolution_clock::now();
 
     // Main Lloyd loop
     while(changed && iter < max_iter){
@@ -146,7 +146,7 @@ int main(){
         free(local_cnts);
     }
 
-    auto t1 = Clock::now();
+    auto t1 = chrono::high_resolution_clock::now();
     long long us = chrono::duration_cast<chrono::microseconds>(t1 - t0).count();
 
     cout << "Total time: " << us << "\n";
