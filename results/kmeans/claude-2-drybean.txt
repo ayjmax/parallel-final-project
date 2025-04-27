@@ -1,0 +1,17 @@
+
+
+Break in iteration 25
+
+Cluster 1 has points
+Cluster values: 74913.4 1069.14 401.82 239.059 1.68959 ...
+
+Cluster 2 has points
+Cluster values: 34764.5 690.191 251.756 175.95 1.44128 ...
+
+Cluster 3 has points
+Cluster values: 173708 1586.82 593.746 374.494 1.58663 ...
+
+Cluster 4 has points
+Cluster values: 50319 863.565 331.553 195.128 1.71578 ...
+
+Total time: 1484

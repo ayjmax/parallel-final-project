@@ -1,0 +1,96 @@
+
+
+Dataset info: 13611 points, 16 dimensions, 4 clusters, 500 max iterations
+Read 13611 points. Starting K-means...
+Initial centers selected.
+Starting iteration 1
+Iteration 1 completed.
+Starting iteration 2
+Iteration 2 completed.
+Starting iteration 3
+Iteration 3 completed.
+Starting iteration 4
+Iteration 4 completed.
+Starting iteration 5
+Iteration 5 completed.
+Starting iteration 6
+Iteration 6 completed.
+Starting iteration 7
+Iteration 7 completed.
+Starting iteration 8
+Iteration 8 completed.
+Starting iteration 9
+Iteration 9 completed.
+Starting iteration 10
+Iteration 10 completed.
+Starting iteration 11
+Iteration 11 completed.
+Starting iteration 12
+Iteration 12 completed.
+Starting iteration 13
+Iteration 13 completed.
+Starting iteration 14
+Iteration 14 completed.
+Starting iteration 15
+Iteration 15 completed.
+Starting iteration 16
+Iteration 16 completed.
+Starting iteration 17
+Iteration 17 completed.
+Starting iteration 18
+Iteration 18 completed.
+Starting iteration 19
+Iteration 19 completed.
+Starting iteration 20
+Iteration 20 completed.
+Starting iteration 21
+Iteration 21 completed.
+Starting iteration 22
+Iteration 22 completed.
+Starting iteration 23
+Iteration 23 completed.
+Starting iteration 24
+Iteration 24 completed.
+Starting iteration 25
+Iteration 25 completed.
+Break in iteration 25
+
+Cluster 1 has 2738 points
+Point 2337: 62499 1003 353.683 225.352 1.56947 ...- BARBUNYA
+Point 2338: 62504 989.061 347.194 230.949 1.50333 ...- BARBUNYA
+Point 2339: 62524 977.204 359.219 224.137 1.60268 ...- BARBUNYA
+Point 2340: 62599 989.399 363.736 221.064 1.64539 ...- BARBUNYA
+Point 2341: 62608 1002.97 365.926 218.603 1.67393 ...- BARBUNYA
+... and 2733 more points
+Cluster values: 74913.4 1069.14 401.82 239.059 1.68959 ...
+
+Cluster 2 has 6066 points
+Point 1: 28395 610.291 208.178 173.889 1.19719 ...- SEKER
+Point 2: 28734 638.018 200.525 182.734 1.09736 ...- SEKER
+Point 3: 29380 624.11 212.826 175.931 1.20971 ...- SEKER
+Point 4: 30008 645.884 210.558 182.517 1.15364 ...- SEKER
+Point 5: 30140 620.134 201.848 190.279 1.0608 ...- SEKER
+... and 6061 more points
+Cluster values: 34764.5 690.191 251.756 175.95 1.44128 ...
+
+Cluster 3 has 520 points
+Point 3352: 126503 1326.96 475.772 339.382 1.40188 ...- BOMBAY
+Point 3353: 128118 1360.13 504.025 325.678 1.54762 ...- BOMBAY
+Point 3354: 129409 1348.89 484.364 341.173 1.4197 ...- BOMBAY
+Point 3355: 129807 1356.31 493.242 336.465 1.46595 ...- BOMBAY
+Point 3356: 130070 1362.23 486.706 343.115 1.41849 ...- BOMBAY
+... and 515 more points
+Cluster values: 173708 1586.82 593.746 374.494 1.58663 ...
+
+Cluster 4 has 4287 points
+Point 1512: 42633 755.012 259.674 209.646 1.23863 ...- SEKER
+Point 1513: 42642 753.58 258.864 209.903 1.23325 ...- SEKER
+Point 1514: 42642 765.967 269.816 201.553 1.33868 ...- SEKER
+Point 1515: 42651 755.515 270.998 200.552 1.35126 ...- SEKER
+Point 1516: 42659 750.109 250.894 217.154 1.15538 ...- SEKER
+... and 4282 more points
+Cluster values: 50319 863.565 331.553 195.128 1.71578 ...
+
+Total time: 2717
+TIME PHASE 1 = 4
+TIME PHASE 2 = 2713
