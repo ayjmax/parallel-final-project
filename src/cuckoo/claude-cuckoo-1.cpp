@@ -5,240 +5,257 @@
 #include <atomic>
 #include <random>
 #include <chrono>
-#include <climits>  // For INT_MAX
+#include <climits>
+#include <cstring>
 
-// Thread-safe implementation of open-addressed hash set with fixed number of locks
+// Concurrent cuckoo hash set with striped locks
 template<typename T>
-class PhasedCuckooHashSet {
+class StripedCuckooHashSet {
 private:
-    struct Probe {  // From Figure 13.24
-        T x;
-        int h0, h1;
-        
-        Probe(T x, int h0, int h1) : x(x), h0(h0), h1(h1) {}
-    };
-
-    std::atomic<T>* table;
-    std::vector<std::recursive_mutex> locks;
+    // Private fields
+    std::atomic<T>* table[2];  // Two tables for cuckoo hashing
+    std::mutex** locks;        // 2D array of locks
     int capacity;
-    int numLocks;
+    int lockCapacity;
     std::hash<T> hashFunction;
-    const T EMPTY = 0;  // Assuming T=int for simplicity
+    static const T EMPTY = 0;
+    static const int PROBE_SIZE = 4;
+    static const int THRESHOLD = 50;
+    static const int LIMIT = 32;
 
     // Hash functions
     int hash0(T x) const {
-        return hashFunction(x) % capacity;
+        return std::hash<T>{}(x) % capacity;
     }
 
     int hash1(T x) const {
-        return (hashFunction(x) / capacity) % capacity;
+        return (std::hash<T>{}(x) / capacity) % capacity;
     }
 
-    void resize() {
-        int oldCapacity = capacity;
-        std::atomic<T>* oldTable = new std::atomic<T>[capacity];
-        
-        // Copy existing elements to temp storage
-        for (int i = 0; i < capacity; i++) {
-            oldTable[i].store(table[i].load());
-        }
-        
-        // Save old table pointer
-        auto oldTablePtr = table;
-        
-        // Double the capacity
-        capacity *= 2;
-        table = new std::atomic<T>[capacity];
-        
-        // Initialize new table
-        for (int i = 0; i < capacity; i++) {
-            table[i].store(EMPTY);
-        }
-        
-        // Rehash all elements
-        for (int i = 0; i < oldCapacity; i++) {
-            T val = oldTable[i].load();
-            if (val != EMPTY) {
-                add(val);
-            }
-        }
-        
-        // Clean up old table
-        delete[] oldTable;
+    // Lock management
+    void acquire(T x) {
+        int h0 = hash0(x) % lockCapacity;
+        int h1 = hash1(x) % lockCapacity;
+        locks[0][h0].lock();
+        locks[1][h1].lock();
     }
 
-    void acquire(T x) {  // From Figure 13.32
-        locks[x % numLocks].lock();
+    void release(T x) {
+        int h0 = hash0(x) % lockCapacity;
+        int h1 = hash1(x) % lockCapacity;
+        locks[0][h0].unlock();
+        locks[1][h1].unlock();
     }
 
-    void release(T x) {  // From Figure 13.33
-        locks[x % numLocks].unlock();
-    }
-
-    bool relocate(int i, int hi) {  // From Figure 13.27
-        int hj = 0;
-        int j = 1 - i;
-        const int LIMIT = 32;  // Relocation limit
+    bool relocate(int which, int index) {
+        int route[LIMIT];
+        int startLevel = 0;
+        int i = 1 - which;
+        int hi = index;
         
         for (int round = 0; round < LIMIT; round++) {
-            T y = table[hi].load();
-            
+            T y = table[which][hi].load();
             if (y == EMPTY) {
                 return false;
             }
             
-            switch (i) {
-                case 0: hj = hash1(y) % capacity; break;
-                case 1: hj = hash0(y) % capacity; break;
+            switch (which) {
+                case 0: hi = hash1(y) % capacity; break;
+                case 1: hi = hash0(y) % capacity; break;
             }
             
-            // Lock and relocate
-            acquire(y);
-            
-            T temp = table[hj].load();
+            T temp = table[i][hi].load();
             if (temp == EMPTY) {
-                table[hj].store(y);
-                table[hi].store(EMPTY);
-                release(y);
+                table[i][hi].store(y);
+                table[which][index].store(EMPTY);
                 return true;
             }
             
-            if (temp == y) {
-                release(y);
-                return false;
-            }
-            
-            table[hj].store(y);
-            table[hi].store(temp);
-            release(y);
-            
-            hi = hj;
+            table[i][hi].store(y);
+            table[which][index].store(temp);
+            index = hi;
+            which = i;
             i = 1 - i;
         }
         
         return false;
     }
 
-public:
-    PhasedCuckooHashSet(int initialCapacity, int numLocks = 32) 
-        : capacity(initialCapacity), numLocks(numLocks), locks(numLocks) {
-        table = new std::atomic<T>[capacity];
-        for (int i = 0; i < capacity; i++) {
-            table[i].store(EMPTY);
-        }
-    }
-    
-    ~PhasedCuckooHashSet() {
-        delete[] table;
-    }
-
-    bool add(T x) {  // From Figure 13.26
-        if (contains(x)) {
+    bool resize() {
+        int oldCapacity = capacity;
+        if (capacity >= INT_MAX / 2) {
             return false;
         }
-
-        int h0 = hash0(x) % capacity;
-        int h1 = hash1(x) % capacity;
-        bool mustResize = false;
-
-        try {
-            if (x != EMPTY) {
-                acquire(x);
-                
-                if (table[h0].load() == EMPTY) {
-                    table[h0].store(x);
-                    release(x);
-                    return true;
-                } else if (table[h1].load() == EMPTY) {
-                    table[h1].store(x);
-                    release(x);
-                    return true;
-                } else if (table[h0].load() == x || table[h1].load() == x) {
-                    release(x);
-                    return false;
-                } else {
-                    mustResize = true;
-                }
-                
-                if (mustResize) {
-                    release(x);
-                    resize();
-                    add(x);
-                    return true;
-                } else if (!relocate(0, h0)) {
-                    release(x);
-                    resize();
-                    add(x);
-                    return true;
-                }
+        
+        // Save old tables
+        std::atomic<T>* oldTable0 = table[0];
+        std::atomic<T>* oldTable1 = table[1];
+        
+        // Double capacity
+        capacity *= 2;
+        table[0] = new std::atomic<T>[capacity];
+        table[1] = new std::atomic<T>[capacity];
+        
+        // Initialize new tables
+        for (int i = 0; i < capacity; i++) {
+            table[0][i].store(EMPTY);
+            table[1][i].store(EMPTY);
+        }
+        
+        // Rehash all elements
+        for (int i = 0; i < oldCapacity; i++) {
+            T val = oldTable0[i].load();
+            if (val != EMPTY) {
+                int h0 = hash0(val) % capacity;
+                table[0][h0].store(val);
             }
+            
+            val = oldTable1[i].load();
+            if (val != EMPTY) {
+                int h1 = hash1(val) % capacity;
+                table[1][h1].store(val);
+            }
+        }
+        
+        // Clean up old tables
+        delete[] oldTable0;
+        delete[] oldTable1;
+        
+        return true;
+    }
+
+public:
+    StripedCuckooHashSet(int initialCapacity) 
+        : capacity(initialCapacity), lockCapacity(initialCapacity / 4) {
+        
+        // Initialize tables
+        table[0] = new std::atomic<T>[capacity];
+        table[1] = new std::atomic<T>[capacity];
+        
+        for (int i = 0; i < capacity; i++) {
+            table[0][i].store(EMPTY);
+            table[1][i].store(EMPTY);
+        }
+        
+        // Initialize locks
+        locks = new std::mutex*[2];
+        locks[0] = new std::mutex[lockCapacity];
+        locks[1] = new std::mutex[lockCapacity];
+    }
+    
+    ~StripedCuckooHashSet() {
+        delete[] table[0];
+        delete[] table[1];
+        delete[] locks[0];
+        delete[] locks[1];
+        delete[] locks;
+    }
+
+    bool add(T x) {
+        if (x == EMPTY) return false;
+        
+        acquire(x);
+        try {
+            if (contains(x)) {
+                release(x);
+                return false;
+            }
+            
+            int h0 = hash0(x) % capacity;
+            int h1 = hash1(x) % capacity;
+            
+            // Try to add to table 0
+            if (table[0][h0].load() == EMPTY) {
+                table[0][h0].store(x);
+                release(x);
+                return true;
+            }
+            
+            // Try to add to table 1
+            if (table[1][h1].load() == EMPTY) {
+                table[1][h1].store(x);
+                release(x);
+                return true;
+            }
+            
+            // Must relocate
+            if (!relocate(0, h0)) {
+                release(x);
+                if (resize()) {
+                    return add(x);
+                }
+                return false;
+            }
+            
+            table[0][h0].store(x);
+            release(x);
+            return true;
+            
         } catch (...) {
             release(x);
             throw;
         }
-        
-        release(x);
-        return true;
     }
 
-    bool remove(T x) {  // From Figure 13.25
-        if (x == EMPTY) {
-            return false;
-        }
-
-        acquire(x);
+    bool remove(T x) {
+        if (x == EMPTY) return false;
         
+        acquire(x);
         try {
             int h0 = hash0(x) % capacity;
             int h1 = hash1(x) % capacity;
             
-            if (table[h0].load() == x) {
-                table[h0].store(EMPTY);
-                release(x);
-                return true;
-            } else if (table[h1].load() == x) {
-                table[h1].store(EMPTY);
+            if (table[0][h0].load() == x) {
+                table[0][h0].store(EMPTY);
                 release(x);
                 return true;
             }
+            
+            if (table[1][h1].load() == x) {
+                table[1][h1].store(EMPTY);
+                release(x);
+                return true;
+            }
+            
+            release(x);
+            return false;
+            
         } catch (...) {
             release(x);
             throw;
         }
-        
-        release(x);
-        return false;
     }
 
-    bool contains(T x) {  // From Figure 13.32
-        if (x == EMPTY) {
-            return false;
-        }
-
+    bool contains(T x) const {
+        if (x == EMPTY) return false;
+        
         int h0 = hash0(x) % capacity;
         int h1 = hash1(x) % capacity;
         
-        // No locking needed for contains
-        return (table[h0].load() == x || table[h1].load() == x);
+        return (table[0][h0].load() == x || table[1][h1].load() == x);
     }
 
     int size() const {  // Non-thread safe
         int count = 0;
         for (int i = 0; i < capacity; i++) {
-            if (table[i].load() != EMPTY) {
-                count++;
-            }
+            if (table[0][i].load() != EMPTY) count++;
+            if (table[1][i].load() != EMPTY) count++;
         }
         return count;
     }
 
     void populate(int count) {  // Non-thread safe
-        std::mt19937 gen(714);  // Fixed seed as required
+        std::mt19937 gen(714);  // Fixed seed
         std::uniform_int_distribution<> dis(1, INT_MAX);
         
-        for (int i = 0; i < count; i++) {
+        int added = 0;
+        int attempts = 0;
+        while (added < count && attempts < count * 3) {
             int val = dis(gen);
-            add(val);
+            if (add(val)) {
+                added++;
+            }
+            attempts++;
         }
     }
 
@@ -247,7 +264,6 @@ public:
     }
 };
 
-// Main function following the test script requirements
 int main(int argc, char* argv[]) {
     if (argc != 3) {
         std::cerr << "Usage: " << argv[0] << " <operations> <threads>" << std::endl;
@@ -257,10 +273,10 @@ int main(int argc, char* argv[]) {
     int numOperations = std::atoi(argv[1]);
     int numThreads = std::atoi(argv[2]);
     
-    // Initialize hash set with capacity 10 million as required
-    PhasedCuckooHashSet<int> hashSet(10000000);
+    // Initialize with 10 million capacity
+    StripedCuckooHashSet<int> hashSet(10000000);
     
-    // Populate with 5 million elements as required
+    // Populate with 5 million elements
     int initialPopulation = 5000000;
     hashSet.populate(initialPopulation);
     
@@ -271,13 +287,16 @@ int main(int argc, char* argv[]) {
     std::atomic<int> successfulAdds(0);
     std::atomic<int> successfulRemoves(0);
     
+    // Print header
+    std::cout << "– Running " << numOperations << " Operations w/ " << numThreads << " Threads –" << std::endl;
+    
     // Start timing
     auto start = std::chrono::high_resolution_clock::now();
     
     // Launch threads
     for (int i = 0; i < numThreads; i++) {
         threads.emplace_back([&, i]() {
-            std::mt19937 gen(714 + i);  // Fixed seed with thread offset
+            std::mt19937 gen(714 + i);  // Seed with offset for each thread
             std::uniform_int_distribution<> valueDis(1, INT_MAX);
             std::uniform_int_distribution<> opDis(1, 100);
             
@@ -306,7 +325,7 @@ int main(int argc, char* argv[]) {
         });
     }
     
-    // Wait for all threads to complete
+    // Wait for threads
     for (auto& thread : threads) {
         thread.join();
     }
@@ -320,7 +339,7 @@ int main(int argc, char* argv[]) {
     int finalCapacity = hashSet.getCapacity();
     int expectedSize = initialSize + successfulAdds.load() - successfulRemoves.load();
     
-    // Print results in the required format
+    // Print results
     std::cout << "Total time: " << duration.count() << std::endl;
     std::cout << "Average time per operation: " << duration.count() / numOperations << std::endl;
     std::cout << "Hashset initial size: " << initialSize << std::endl;
