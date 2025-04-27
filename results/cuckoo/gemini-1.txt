@@ -1,221 +1,221 @@
 
 [DEBUG] Running gemini-cuckoo-1 with: 2 Threads, 1000 Operations
 – Running 1000 Operations w/ 2 Threads –
-Total time: 202
+Total time: 176
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 91
+Hashset initial capacity: 1000000
+Successful Adds: 102
 Successful Removes: 0
-Expected size: 500091
-Final hashset size: 500091
-Final hashset capacity: 32000000
+Expected size: 500102
+Final hashset size: 500102
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 4 Threads, 1000 Operations
 – Running 1000 Operations w/ 4 Threads –
-Total time: 310
+Total time: 197
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 91
+Hashset initial capacity: 1000000
+Successful Adds: 97
 Successful Removes: 0
-Expected size: 500091
-Final hashset size: 500091
-Final hashset capacity: 32000000
+Expected size: 500097
+Final hashset size: 500097
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 8 Threads, 1000 Operations
 – Running 1000 Operations w/ 8 Threads –
-Total time: 314
+Total time: 423
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 91
+Hashset initial capacity: 1000000
+Successful Adds: 106
 Successful Removes: 0
-Expected size: 500091
-Final hashset size: 500091
-Final hashset capacity: 32000000
+Expected size: 500106
+Final hashset size: 500106
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 16 Threads, 1000 Operations
 – Running 1000 Operations w/ 16 Threads –
-Total time: 711
+Total time: 699
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 91
+Hashset initial capacity: 1000000
+Successful Adds: 94
 Successful Removes: 0
-Expected size: 500091
-Final hashset size: 500091
-Final hashset capacity: 32000000
+Expected size: 500094
+Final hashset size: 500094
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 2 Threads, 10000 Operations
 – Running 10000 Operations w/ 2 Threads –
-Total time: 1473
+Total time: 667
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 985
-Successful Removes: 1
-Expected size: 500984
-Final hashset size: 500984
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 955
+Successful Removes: 0
+Expected size: 500955
+Final hashset size: 500955
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 4 Threads, 10000 Operations
 – Running 10000 Operations w/ 4 Threads –
-Total time: 1558
+Total time: 776
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 985
-Successful Removes: 1
-Expected size: 500984
-Final hashset size: 500984
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 992
+Successful Removes: 0
+Expected size: 500992
+Final hashset size: 500992
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 8 Threads, 10000 Operations
 – Running 10000 Operations w/ 8 Threads –
-Total time: 2032
+Total time: 1221
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 985
-Successful Removes: 1
-Expected size: 500984
-Final hashset size: 500984
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 1018
+Successful Removes: 0
+Expected size: 501018
+Final hashset size: 501018
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 16 Threads, 10000 Operations
 – Running 10000 Operations w/ 16 Threads –
-Total time: 2384
+Total time: 1336
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 985
-Successful Removes: 1
-Expected size: 500984
-Final hashset size: 500984
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 1015
+Successful Removes: 0
+Expected size: 501015
+Final hashset size: 501015
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 2 Threads, 100000 Operations
 – Running 100000 Operations w/ 2 Threads –
-Total time: 15273
+Total time: 5292
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 10167
+Hashset initial capacity: 1000000
+Successful Adds: 9656
 Successful Removes: 3
-Expected size: 510164
-Final hashset size: 510164
-Final hashset capacity: 32000000
+Expected size: 509653
+Final hashset size: 509653
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 4 Threads, 100000 Operations
 – Running 100000 Operations w/ 4 Threads –
-Total time: 18463
+Total time: 5522
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 10167
-Successful Removes: 3
-Expected size: 510164
-Final hashset size: 510164
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 9704
+Successful Removes: 2
+Expected size: 509702
+Final hashset size: 509702
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 8 Threads, 100000 Operations
 – Running 100000 Operations w/ 8 Threads –
-Total time: 21354
+Total time: 6450
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 10167
+Hashset initial capacity: 1000000
+Successful Adds: 9851
 Successful Removes: 3
-Expected size: 510164
-Final hashset size: 510164
-Final hashset capacity: 32000000
+Expected size: 509848
+Final hashset size: 509848
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 16 Threads, 100000 Operations
 – Running 100000 Operations w/ 16 Threads –
-Total time: 23156
+Total time: 6905
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 10167
-Successful Removes: 3
-Expected size: 510164
-Final hashset size: 510164
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 9967
+Successful Removes: 5
+Expected size: 509962
+Final hashset size: 509962
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 2 Threads, 1000000 Operations
 – Running 1000000 Operations w/ 2 Threads –
-Total time: 147952
+Total time: 51926
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 99830
-Successful Removes: 28
-Expected size: 599802
-Final hashset size: 599802
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 99824
+Successful Removes: 30
+Expected size: 599794
+Final hashset size: 599794
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 4 Threads, 1000000 Operations
 – Running 1000000 Operations w/ 4 Threads –
-Total time: 184118
+Total time: 55023
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 99830
-Successful Removes: 28
-Expected size: 599802
-Final hashset size: 599802
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 99664
+Successful Removes: 31
+Expected size: 599633
+Final hashset size: 599633
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 8 Threads, 1000000 Operations
 – Running 1000000 Operations w/ 8 Threads –
-Total time: 209810
+Total time: 62806
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 99830
-Successful Removes: 28
-Expected size: 599802
-Final hashset size: 599802
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 99363
+Successful Removes: 23
+Expected size: 599340
+Final hashset size: 599340
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 16 Threads, 1000000 Operations
 – Running 1000000 Operations w/ 16 Threads –
-Total time: 226560
+Total time: 67977
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 99830
-Successful Removes: 28
-Expected size: 599802
-Final hashset size: 599802
-Final hashset capacity: 32000000
+Hashset initial capacity: 1000000
+Successful Adds: 99504
+Successful Removes: 25
+Expected size: 599479
+Final hashset size: 599479
+Final hashset capacity: 1000000
 [DEBUG] Running gemini-cuckoo-1 with: 2 Threads, 10000000 Operations
 – Running 10000000 Operations w/ 2 Threads –
-Total time: 1988712
+Total time: 570634
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 997620
-Successful Removes: 425
-Expected size: 1497195
-Final hashset size: 1497195
-Final hashset capacity: 128000000
+Hashset initial capacity: 1000000
+Successful Adds: 997312
+Successful Removes: 451
+Expected size: 1496861
+Final hashset size: 1496861
+Final hashset capacity: 2000000
 [DEBUG] Running gemini-cuckoo-1 with: 4 Threads, 10000000 Operations
 – Running 10000000 Operations w/ 4 Threads –
-Total time: 2302527
+Total time: 589844
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 997620
-Successful Removes: 425
-Expected size: 1497195
-Final hashset size: 1497195
-Final hashset capacity: 128000000
+Hashset initial capacity: 1000000
+Successful Adds: 997447
+Successful Removes: 445
+Expected size: 1497002
+Final hashset size: 1497002
+Final hashset capacity: 2000000
 [DEBUG] Running gemini-cuckoo-1 with: 8 Threads, 10000000 Operations
 – Running 10000000 Operations w/ 8 Threads –
-Total time: 2606712
+Total time: 651963
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 997620
-Successful Removes: 425
-Expected size: 1497195
-Final hashset size: 1497195
-Final hashset capacity: 128000000
+Hashset initial capacity: 1000000
+Successful Adds: 998723
+Successful Removes: 454
+Expected size: 1498269
+Final hashset size: 1498269
+Final hashset capacity: 2000000
 [DEBUG] Running gemini-cuckoo-1 with: 16 Threads, 10000000 Operations
 – Running 10000000 Operations w/ 16 Threads –
-Total time: 2837926
+Total time: 719538
 Average time per operation: 0
 Hashset initial size: 500000
-Hashset initial capacity: 32000000
-Successful Adds: 997620
-Successful Removes: 425
-Expected size: 1497195
-Final hashset size: 1497195
-Final hashset capacity: 128000000
+Hashset initial capacity: 1000000
+Successful Adds: 998274
+Successful Removes: 434
+Expected size: 1497840
+Final hashset size: 1497840
+Final hashset capacity: 2000000
