@@ -273,11 +273,11 @@ int main(int argc, char* argv[]) {
     int numOperations = std::atoi(argv[1]);
     int numThreads = std::atoi(argv[2]);
     
-    // Initialize with 10 million capacity
-    StripedCuckooHashSet<int> hashSet(10000000);
+    // Initialize with 1 million capacity
+    StripedCuckooHashSet<int> hashSet(1000000);
     
-    // Populate with 5 million elements
-    int initialPopulation = 5000000;
+    // Populate with 500,000 elements
+    int initialPopulation = 500000;
     hashSet.populate(initialPopulation);
     
     int initialSize = hashSet.size();
@@ -288,7 +288,7 @@ int main(int argc, char* argv[]) {
     std::atomic<int> successfulRemoves(0);
     
     // Print header
-    std::cout << "– Running " << numOperations << " Operations w/ " << numThreads << " Threads –" << std::endl;
+    std::cout << "- Running " << numOperations << " Operations w/ " << numThreads << " Threads -" << std::endl;
     
     // Start timing
     auto start = std::chrono::high_resolution_clock::now();
