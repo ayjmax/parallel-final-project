@@ -51,3 +51,28 @@ Introduction:
   K-means uses the Euclidean distance calculation to understand if a point belongs to a
   certain cluster. SIMD instructions might help in this case, especially when the
   dataset has many dimensions.
+
+
+
+
+Install and link the desired toolchain (e.g., TBB, CilkPlus, ...).
+
+  If you decide to go for Intel TBB, the following steps should be sufficient to install
+  TBB using the provided binary files. Instructions are not for the latest version;
+  if you want to go with that, just apply the same instructions to a newer binary.
+
+  Download from here: https://github.com/oneapi-src/oneTBB/releases
+
+	---> wget https://github.com/uxlfoundation/oneTBB/releases/download/v2022.0.0/oneapi-tbb-2022.0.0-lin.tgz
+
+	---> tar -xvzf oneapi-tbb-2022.0.0-lin.tgz
+	---> cd oneapi-tbb-2022.0.0/env
+	---> source vars.sh
+
+  The last command has to be executed every time you open a new terminal.
+
+  After doing this you can now link with tbb using `-ltbb`
+
+  Note that, if you decide to build (and not just install from binary) your toolchain,
+  your should be careful not to exceed your space quota. If additional space is needed,
+  please find alternative solutions or contact me.
