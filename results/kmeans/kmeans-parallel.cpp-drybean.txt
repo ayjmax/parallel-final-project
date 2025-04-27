@@ -1,0 +1,13 @@
+
+
+Break in iteration 2
+
+Cluster 1 values: -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan 
+Cluster 2 values: -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan 
+Cluster 3 values: -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan 
+Cluster 4 values: -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan -nan 
+
+
+Total time: 9592
+TIME PHASE 1 = 3
+TIME PHASE 2 = 9589

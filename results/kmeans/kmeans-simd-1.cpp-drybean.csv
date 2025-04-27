@@ -1,0 +1,2 @@
+Implementation,Dataset,Time(μs)
+kmeans-simd-1.cpp,drybean,101304
