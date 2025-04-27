@@ -1,2 +1,7 @@
 bin/
 oneapi-tbb-*
+.env
+fpc_*
+run_fpc.sh
+*.zip
+Assignment3
